@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "getFormObj(fpdf_pageobject_t__*, std::__1::vector&lt;PDFParser::RectImageF, std::__1::allocator&lt;PDFParser::RectImageF&gt; &gt;*, std::__1::vector&lt;PDFParser::RectImageF, std::__1::allocator&lt;PDFParser::RectImageF&gt; &gt;*, float, float, float, float, float, bool, _FS_RECTF_):parse_pdf.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "getClipPath(fpdf_pageobject_t__*, float):parse_pdf.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "PDFParser::parsePDF(char const*):parse_pdf.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(unsigned short)result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DiffImgCore::diff(cv::Mat, cv::Mat, cv::Mat, cv::Mat, cv::Rect_&lt;int&gt;, DiffImgCore::DiffResult&amp;, double, bool):DiffImgCore.mm">
+      </ContextState>
+      <ContextState
+         contextName = "::__68-[DiffImgCV diffStart:target:save:object:pageRangeOLD:pageRangeNEW:]_block_invoke():DiffImgCV.mm">
+      </ContextState>
+      <ContextState
+         contextName = "getFormObj(fpdf_pageobject_t__*, std::__1::vector&lt;PDFParser::RectImageF, std::__1::allocator&lt;PDFParser::RectImageF&gt; &gt;*, std::__1::vector&lt;PDFParser::RectImageF, std::__1::allocator&lt;PDFParser::RectImageF&gt; &gt;*, float, float, float, float, float, bool):parse_pdf.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

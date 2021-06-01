@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/XMPTool/XMPTool/XMPTool.mm"
+            timestampString = "600869475.998239"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "+getXmpInfo:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/XMPTool/XMPTool/XMPTool.mm"
+            timestampString = "600869475.999491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "346"
+            endingLineNumber = "346"
+            landmarkName = "+writeXmpInfo:imgPath:fileType:error:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "DETECTED_MISSING_CONSTRAINTS"
+            moduleName = "">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DETECTED_MISSING_CONSTRAINTS"
+                  moduleName = "AppKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/CvUtil.hpp"
+            timestampString = "614593620.00574"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "400"
+            endingLineNumber = "400"
+            landmarkName = "getRotateInfo(cv::Point2f q1, cv::Point2f q2, cv::Point2f t1, cv::Point2f t2, cv::Point2f srcCenter)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/CvUtil.hpp"
+            timestampString = "614593620.00588"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "calcContrast(cv::Mat src, cv::Mat trg, cv::Mat df)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.394792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "360"
+            endingLineNumber = "360"
+            landmarkName = "-addNewDiff"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.394943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "338"
+            endingLineNumber = "338"
+            landmarkName = "-accessibilityStringForTabView:objectCount:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395033"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "-tabView:toolTipForTabViewItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
+            landmarkName = "-tabView:tabBarDidUnhide:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "-tabView:tabBarDidHide:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.3952481"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "-tabView:closeWindowForLastTabViewItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.3953739"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
+            landmarkName = "-tabView:imageForTabViewItem:offset:styleMask:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
+            landmarkName = "-tabView:didDropTabViewItem:inTabBar:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.3955261"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "-tabView:shouldDropTabViewItem:inTabBar:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395596"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
+            landmarkName = "-tabView:shouldDragTabViewItem:fromTabBar:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395666"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246"
+            landmarkName = "-tabView:menuForTabViewItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.3957371"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
+            landmarkName = "-tabView:acceptedDraggingInfo:onTabViewItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "-tabView:didCloseTabViewItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395869"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "-tabView:didSelectTabViewItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395939"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "-loadView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/View/IVTabBarView.m"
+            timestampString = "586259018.395997"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "-tabView:imageForTabViewItem:offset:styleMask:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/Controller/IVTabBarViewController.m"
+            timestampString = "586265757.740468"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "-tabView:didSelectTabViewItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InspectViewer/Controller/IVTabBarViewController.m"
+            timestampString = "586265757.740563"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "-init"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KZImage/KZPSDParser/KZPSDParser/psd.cpp"
+            timestampString = "587550152.445516"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "629"
+            endingLineNumber = "629"
+            landmarkName = "EncoderWriteCallback(png_structp png, png_bytep data, png_size_t size)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KZImage/KZPSDParser/KZPSDParser/psd.cpp"
+            timestampString = "587550152.446043"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "854"
+            endingLineNumber = "854"
+            landmarkName = "psd::parselayers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KZImage/KZPSDParser/KZPSDParser/psd.cpp"
+            timestampString = "587550152.446146"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "711"
+            endingLineNumber = "711"
+            landmarkName = "doimage(FILE* f, struct layer_info *li, char *name, struct psd_header *h)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KZImage/KZPSDParser/KZPSDParser/psd_layer_and_mask.cpp"
+            timestampString = "587459132.659642"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "psd::Layer::read(FILE *psd_file)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KZImage/KZImage/psd.hpp"
+            timestampString = "587550152.446346"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "327"
+            endingLineNumber = "327"
+            landmarkName = "parse(long flags)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KZImage/KZMagick/psd_util.hpp"
+            timestampString = "605622523.277634"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "342"
+            endingLineNumber = "342"
+            landmarkName = "decoe_RLE(std::vector&lt;psd_uint8_t&gt; buffer, psd_uint64_t *read_idx, psd_uint32_t height, psd_uint32_t width, std::vector&lt;std::vector&lt;psd_uint8_t&gt;&gt; *src, std::vector&lt;T&gt; lengths)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool Psd::Util::decoe_RLE&lt;Psd::Type::BigE&lt;unsigned int&gt; &gt;(std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt;, unsigned long long*, unsigned int, unsigned int, std::__1::vector&lt;std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt; &gt; &gt;*, std::__1::vector&lt;Psd::Type::BigE&lt;unsigned int&gt;, std::__1::allocator&lt;Psd::Type::BigE&lt;unsigned int&gt; &gt; &gt;)"
+                  moduleName = "libKZMagick.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchiyama_macmini/Documents/ImageDiffer/KZImage/KZMagick/psd_util.hpp"
+                  timestampString = "588642788.854758"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "3597">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool Psd::Util::decoe_RLE&lt;Psd::Type::BigE&lt;unsigned short&gt; &gt;(std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt;, unsigned long long*, unsigned int, unsigned int, std::__1::vector&lt;std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt; &gt; &gt;*, std::__1::vector&lt;Psd::Type::BigE&lt;unsigned short&gt;, std::__1::allocator&lt;Psd::Type::BigE&lt;unsigned short&gt; &gt; &gt;)"
+                  moduleName = "libKZMagick.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchiyama_macmini/Documents/ImageDiffer/KZImage/KZMagick/psd_util.hpp"
+                  timestampString = "588642788.857319"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "3603">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KZImage/KZMagick/psd_util.hpp"
+            timestampString = "605622523.277705"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "329"
+            endingLineNumber = "329"
+            landmarkName = "decoe_RLE(std::vector&lt;psd_uint8_t&gt; buffer, psd_uint64_t *read_idx, psd_uint32_t height, psd_uint32_t width, std::vector&lt;std::vector&lt;psd_uint8_t&gt;&gt; *src, std::vector&lt;T&gt; lengths)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool Psd::Util::decoe_RLE&lt;Psd::Type::BigE&lt;unsigned int&gt; &gt;(std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt;, unsigned long long*, unsigned int, unsigned int, std::__1::vector&lt;std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt; &gt; &gt;*, std::__1::vector&lt;Psd::Type::BigE&lt;unsigned int&gt;, std::__1::allocator&lt;Psd::Type::BigE&lt;unsigned int&gt; &gt; &gt;)"
+                  moduleName = "libKZMagick.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchiyama_macmini/Documents/ImageDiffer/KZImage/KZMagick/psd_util.hpp"
+                  timestampString = "589378551.176849"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bool Psd::Util::decoe_RLE&lt;Psd::Type::BigE&lt;unsigned short&gt; &gt;(std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt;, unsigned long long*, unsigned int, unsigned int, std::__1::vector&lt;std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;unsigned char, std::__1::allocator&lt;unsigned char&gt; &gt; &gt; &gt;*, std::__1::vector&lt;Psd::Type::BigE&lt;unsigned short&gt;, std::__1::allocator&lt;Psd::Type::BigE&lt;unsigned short&gt; &gt; &gt;)"
+                  moduleName = "libKZMagick.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchiyama_macmini/Documents/ImageDiffer/KZImage/KZMagick/psd_util.hpp"
+                  timestampString = "589378551.180485"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "431">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KZImage/KZImage/VipsFuncs.mm"
+            timestampString = "616926153.4838279"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "640"
+            endingLineNumber = "640"
+            landmarkName = "saveBufferProcess(VImage img, WorkInfo *info)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Libs/include/Halide.h"
+            timestampString = "601475402.224004"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5556"
+            endingLineNumber = "5556"
+            landmarkName = "Target"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.261077"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2755"
+            endingLineNumber = "2755"
+            landmarkName = "divide(cv::Mat base, cv::Mat &amp;divLabel)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.2611949"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2743"
+            endingLineNumber = "2743"
+            landmarkName = "divide(cv::Mat base, cv::Mat &amp;divLabel)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.26126"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3039"
+            endingLineNumber = "3039"
+            landmarkName = "DiffImgCore::getColRects(cv::Mat&amp; img)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.261319"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3142"
+            endingLineNumber = "3142"
+            landmarkName = "delOutComponent(cv::Mat &amp;rS, cv::Mat &amp;rT)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.261378"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3169"
+            endingLineNumber = "3169"
+            landmarkName = "delOutComponent(cv::Mat &amp;rS, cv::Mat &amp;rT)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.132689"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.132857"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.13301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "405"
+            endingLineNumber = "405"
+            landmarkName = "PDFParser::parsePDF(const char *pdf_path)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.133109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.133221"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "364"
+            endingLineNumber = "364"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.1333719"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.1335011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "319"
+            endingLineNumber = "319"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.1336271"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getFormObj(fpdf_pageobject_t__*, std::__1::vector&lt;PDFParser::RectImageF, std::__1::allocator&lt;PDFParser::RectImageF&gt; &gt;*, float, float, float, float, float, bool)"
+                  moduleName = "DiffImgCV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchiyama_macmini/Documents/ImageDiffer/DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+                  timestampString = "604815845.347489"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "256"
+                  endingLineNumber = "256"
+                  offsetFromSymbolStart = "5822">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "getFormObj(fpdf_pageobject_t__*, std::__1::vector&lt;PDFParser::RectImageF, std::__1::allocator&lt;PDFParser::RectImageF&gt; &gt;*, float, float, float, float, float, bool)"
+                  moduleName = "DiffImgCV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/uchiyama_macmini/Documents/ImageDiffer/DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+                  timestampString = "604815845.351058"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "256"
+                  endingLineNumber = "256"
+                  offsetFromSymbolStart = "9948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.133769"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.133886"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.133965"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.134112"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/partse_pdf.cpp"
+            timestampString = "604833741.134179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "getFormObj(FPDF_PAGEOBJECT obj, vector&lt;PDFParser::RectImageF&gt; *imageRects, vector&lt;PDFParser::RectImageF&gt; *pathRects, float scale, float height, float deg, float orgx, float orgy, bool transparency)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCV.mm"
+            timestampString = "636522821.261798"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "950"
+            endingLineNumber = "950"
+            landmarkName = "-diffStart:target:save:object:pageRangeOLD:pageRangeNEW:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.327949"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4925"
+            endingLineNumber = "4925"
+            landmarkName = "DiffImgCore::diff(cv::Mat crpS, cv::Mat crpT, cv::Mat crpSBE, cv::Mat crpTBE, cv::Rect cropRect, DiffResult&amp; diff_result, double match_thresh, bool isIllust, std::vector&lt;cv::Rect&gt; &amp;textArea, int extCropSize)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Downloads/SFPSDWriter-master/Library/SFPSDWriter/Categories/NSData+SFPackedBits.m"
+            timestampString = "605612943.861039"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "-sfPackedBitsForRange:skip:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Downloads/SFPSDWriter-master/Library/SFPSDWriter/Layer Classes/SFPSDLayer.m"
+            timestampString = "605622523.3074729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
+            landmarkName = "-layerChannels"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/parse_pdf.cpp"
+            timestampString = "611044255.392821"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "PDFParser::getFormObj(FPDF_PAGEOBJECT obj, float scale, float height, float deg, float orgx, float orgy, bool transparency, std::vector&lt;RectImageF&gt; &amp;txtRects, std::vector&lt;RectImageF&gt; &amp;imgRects)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/parse_pdf.cpp"
+            timestampString = "611044255.3929321"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "563"
+            endingLineNumber = "563">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/parse_pdf.cpp"
+            timestampString = "611044255.393026"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "428"
+            endingLineNumber = "428"
+            landmarkName = "PDFParser::parsePDF(const char *pdf_path, std::vector&lt;RectImageF&gt; &amp;imgRects, std::vector&lt;RectImageF&gt; &amp;textRects)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCV.mm"
+            timestampString = "636522821.328124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "821"
+            endingLineNumber = "821"
+            landmarkName = "-diffStart:target:save:object:pageRangeOLD:pageRangeNEW:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.328359"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6426"
+            endingLineNumber = "6426"
+            landmarkName = "DiffImgCore::diff(cv::Mat crpS, cv::Mat crpT, cv::Mat crpSBE, cv::Mat crpTBE, cv::Rect cropRect, DiffResult&amp; diff_result, double match_thresh, bool isIllust, std::vector&lt;cv::Rect&gt; &amp;textArea, int extCropSize)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/parse_pdf.cpp"
+            timestampString = "611044255.395309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "377"
+            endingLineNumber = "377"
+            landmarkName = "PDFParser::getFormObj(FPDF_PAGEOBJECT obj, float scale, float height, float deg, float orgx, float orgy, bool transparency, std::vector&lt;RectImageF&gt; &amp;txtRects, std::vector&lt;RectImageF&gt; &amp;imgRects)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCV.mm"
+            timestampString = "636522821.328427"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "792"
+            endingLineNumber = "792"
+            landmarkName = "-diffStart:target:save:object:pageRangeOLD:pageRangeNEW:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.32864"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3574"
+            endingLineNumber = "3574"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.328684"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3573"
+            endingLineNumber = "3573"
+            landmarkName = "doUnsharpMaskAmount(cv::Mat in, cv::Mat &amp;out, float amount, float radius, float threshold)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.328725"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4665"
+            endingLineNumber = "4665"
+            landmarkName = "DiffImgCore::diff(cv::Mat crpS, cv::Mat crpT, cv::Mat crpSBE, cv::Mat crpTBE, cv::Rect cropRect, DiffResult&amp; diff_result, double match_thresh, bool isIllust, std::vector&lt;cv::Rect&gt; &amp;textArea, int extCropSize)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCV.mm"
+            timestampString = "636522821.328766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "990"
+            endingLineNumber = "990"
+            landmarkName = "-diffStart:target:save:object:pageRangeOLD:pageRangeNEW:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = ""
+            moduleName = "">
+            <Locations>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.328982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4666"
+            endingLineNumber = "4666"
+            landmarkName = "DiffImgCore::diff(cv::Mat crpS, cv::Mat crpT, cv::Mat crpSBE, cv::Mat crpTBE, cv::Rect cropRect, DiffResult&amp; diff_result, double match_thresh, bool isIllust, std::vector&lt;cv::Rect&gt; &amp;textArea, int extCropSize)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCV.mm"
+            timestampString = "636522821.329029"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "994"
+            endingLineNumber = "994"
+            landmarkName = "-diffStart:target:save:object:pageRangeOLD:pageRangeNEW:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCV.mm"
+            timestampString = "636522821.329236"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "995"
+            endingLineNumber = "995"
+            landmarkName = "-diffStart:target:save:object:pageRangeOLD:pageRangeNEW:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.32944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1121"
+            endingLineNumber = "1121"
+            landmarkName = "getCroppedComponentImg(cv::Mat rS, cv::Mat rT, cv::Mat sikisa, cv::Mat&amp; outS, cv::Mat&amp; outT, bool isNoUseBin)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.3294851"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "839"
+            endingLineNumber = "839"
+            landmarkName = "getComponentRects(cv::Mat crpMul, int thresh)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.329525"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4700"
+            endingLineNumber = "4700"
+            landmarkName = "DiffImgCore::diff(cv::Mat crpS, cv::Mat crpT, cv::Mat crpSBE, cv::Mat crpTBE, cv::Rect cropRect, DiffResult&amp; diff_result, double match_thresh, bool isIllust, std::vector&lt;cv::Rect&gt; &amp;textArea, int extCropSize)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCV.mm"
+            timestampString = "636522821.329565"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1000"
+            endingLineNumber = "1000"
+            landmarkName = "-diffStart:target:save:object:pageRangeOLD:pageRangeNEW:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DegitalInspector/DiffImgCV/DiffImgCV/DiffImgCore.mm"
+            timestampString = "636522821.3297729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1584"
+            endingLineNumber = "1584"
+            landmarkName = "DiffImgCore::getDiffArea(cv::Mat rS, cv::Mat rT, cv::Mat binS, cv::Mat binT, cv::Mat centerDiff, cv::Mat bitDiff, cv::Mat &amp;outS, cv::Mat &amp;outT, cv::Mat &amp;mulCompo, int extCrop)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
