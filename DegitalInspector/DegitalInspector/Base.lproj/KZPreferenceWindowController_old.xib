@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="KZPreferenceWindowController">
+            <connections>
+                <outlet property="settingTab" destination="2yP-HW-IFB" id="CNa-mc-QBs"/>
+                <outlet property="settingVals" destination="s57-8n-qIU" id="iz7-qu-T7R"/>
+                <outlet property="sourceList" destination="mRw-ha-yJ6" id="whR-c4-EYl"/>
+                <outlet property="window" destination="QvC-M9-y7g" id="Uyj-cC-LY9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="動作設定" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" animationBehavior="default" id="QvC-M9-y7g">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="635" height="463"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" id="EiT-Mj-1SZ">
+                <rect key="frame" x="0.0" y="0.0" width="635" height="463"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="jw3-bv-WCT">
+                        <rect key="frame" x="0.0" y="40" width="635" height="383"/>
+                        <subviews>
+                            <scrollView borderType="groove" autohidesScrollers="YES" horizontalLineScroll="26" horizontalPageScroll="10" verticalLineScroll="26" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Id7-L4-ZCh">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="383"/>
+                                <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="qOd-Ov-wcB">
+                                    <rect key="frame" x="2" y="2" width="196" height="379"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="systemDefault" viewBased="YES" indentationPerLevel="14" autosaveExpandedItems="YES" outlineTableColumn="azx-Hz-W0j" id="mRw-ha-yJ6">
+                                            <rect key="frame" x="0.0" y="0.0" width="196" height="379"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <size key="intercellSpacing" width="3" height="2"/>
+                                            <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                            <tableColumns>
+                                                <tableColumn identifier="settingTitle" width="193" minWidth="16" maxWidth="1000" id="azx-Hz-W0j">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
+                                                        <font key="font" metaFont="smallSystem"/>
+                                                        <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </tableHeaderCell>
+                                                    <textFieldCell key="dataCell" selectable="YES" editable="YES" continuous="YES" alignment="left" title="Text Cell" id="hng-CE-82n">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                    <prototypeCellViews>
+                                                        <tableCellView identifier="DataCell" id="3qK-19-qkf">
+                                                            <rect key="frame" x="1" y="1" width="193" height="17"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                            <subviews>
+                                                                <imageView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UJd-rg-RFX">
+                                                                    <rect key="frame" x="3" y="0.0" width="17" height="17"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSActionTemplate" id="JS5-Qp-hPd"/>
+                                                                </imageView>
+                                                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WZq-iU-z0q">
+                                                                    <rect key="frame" x="25" y="0.0" width="168" height="17"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="sFL-E3-a1W">
+                                                                        <font key="font" metaFont="system"/>
+                                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                    </textFieldCell>
+                                                                </textField>
+                                                            </subviews>
+                                                            <connections>
+                                                                <outlet property="imageView" destination="UJd-rg-RFX" id="Elg-7d-SDH"/>
+                                                                <outlet property="textField" destination="WZq-iU-z0q" id="rM6-7g-7Ij"/>
+                                                            </connections>
+                                                        </tableCellView>
+                                                    </prototypeCellViews>
+                                                </tableColumn>
+                                            </tableColumns>
+                                        </outlineView>
+                                    </subviews>
+                                    <nil key="backgroundColor"/>
+                                </clipView>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="7KE-hv-qbd"/>
+                                </constraints>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="BVm-7x-Fbs">
+                                    <rect key="frame" x="1" y="382" width="148" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="QEI-3X-hoO">
+                                    <rect key="frame" x="224" y="17" width="15" height="102"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <tabView drawsBackground="NO" type="noTabsNoBorder" initialItem="Ky7-kZ-oVC" translatesAutoresizingMaskIntoConstraints="NO" id="2yP-HW-IFB">
+                                <rect key="frame" x="200" y="0.0" width="435" height="383"/>
+                                <font key="font" metaFont="system"/>
+                                <tabViewItems>
+                                    <tabViewItem label="Diff" identifier="GroupNameDiff" id="xff-bn-QIX" userLabel="Diff">
+                                        <view key="view" id="ZRV-OC-GIG">
+                                            <rect key="frame" x="0.0" y="0.0" width="435" height="352"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jZe-BJ-rt8">
+                                                    <rect key="frame" x="38" y="277" width="67" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="KYM-uZ-Yds"/>
+                                                        <constraint firstAttribute="width" constant="63" id="QMW-Wk-V7x"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="許容誤差：" id="mPg-pc-91v">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="許容">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="誤差">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="HiraKakuProN-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FXw-fM-END">
+                                                    <rect key="frame" x="25" y="239" width="80" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="15T-av-87K"/>
+                                                        <constraint firstAttribute="width" constant="76" id="bjo-Z6-62F"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="ノイズ除去：" id="mDp-Gy-KiW">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="ノイズ除去">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fBr-MR-G98">
+                                                    <rect key="frame" x="12" y="315" width="89" height="17"/>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="誤差検知感度：" id="n5f-rR-chF">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="誤差検知感度">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aJV-bB-xaQ" customClass="KZSlider">
+                                                    <rect key="frame" x="109" y="273" width="219" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="Jvh-Tp-Owb"/>
+                                                        <constraint firstAttribute="width" constant="215" id="vYH-8y-9vK"/>
+                                                    </constraints>
+                                                    <sliderCell key="cell" state="on" alignment="left" minValue="1" maxValue="15" doubleValue="2" tickMarkPosition="below" numberOfTickMarks="15" allowsTickMarkValuesOnly="YES" sliderType="linear" id="hnt-pK-0cm"/>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.gapPix" id="Ode-rz-1yj"/>
+                                                    </connections>
+                                                </slider>
+                                                <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vAe-KR-Svf" customClass="KZSlider">
+                                                    <rect key="frame" x="109" y="235" width="219" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="FQb-g3-V2K"/>
+                                                        <constraint firstAttribute="width" constant="215" id="TJq-D6-1ZT"/>
+                                                    </constraints>
+                                                    <sliderCell key="cell" state="on" alignment="left" maxValue="3" tickMarkPosition="below" numberOfTickMarks="4" allowsTickMarkValuesOnly="YES" sliderType="linear" id="ov4-YK-AYY"/>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.noizeReduction" id="AHj-Dc-oZR"/>
+                                                    </connections>
+                                                </slider>
+                                                <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="r5e-hC-MB8" customClass="KZSlider">
+                                                    <rect key="frame" x="105" y="311" width="219" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="GvP-Mb-6R5"/>
+                                                        <constraint firstAttribute="width" constant="215" id="WPd-t6-zzd"/>
+                                                    </constraints>
+                                                    <sliderCell key="cell" state="on" alignment="left" minValue="40" maxValue="80" doubleValue="68" tickMarkPosition="below" numberOfTickMarks="41" allowsTickMarkValuesOnly="YES" sliderType="linear" id="YsI-LE-6tA"/>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.threthDiff" id="aua-fe-If9">
+                                                            <dictionary key="options">
+                                                                <bool key="NSRaisesForNotApplicableKeys" value="NO"/>
+                                                                <bool key="NSValidatesImmediately" value="YES"/>
+                                                            </dictionary>
+                                                        </binding>
+                                                    </connections>
+                                                </slider>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ekb-25-w6O">
+                                                    <rect key="frame" x="331" y="315" width="38" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="HNd-g6-mHr">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.threthDiff" id="zDc-TU-pP8"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3dh-Eh-bwJ">
+                                                    <rect key="frame" x="331" y="277" width="38" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="0Fj-EK-otM">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.gapPix" id="ycE-Q2-7vW"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DcM-SQ-grS">
+                                                    <rect key="frame" x="331" y="239" width="38" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="Pmg-wk-eQQ">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.noizeReduction" id="gsa-2C-Ict">
+                                                            <dictionary key="options">
+                                                                <string key="NSValueTransformerName">KZJyakuTyuuKyou</string>
+                                                            </dictionary>
+                                                        </binding>
+                                                    </connections>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="asA-pd-OAo">
+                                                    <rect key="frame" x="371" y="277" width="24" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="pix" id="i4y-2Z-XnP">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="r5e-hC-MB8" firstAttribute="top" secondItem="ZRV-OC-GIG" secondAttribute="top" constant="18" id="15t-7p-wbS"/>
+                                                <constraint firstItem="r5e-hC-MB8" firstAttribute="leading" secondItem="fBr-MR-G98" secondAttribute="trailing" constant="8" id="1zk-7k-59g"/>
+                                                <constraint firstItem="jZe-BJ-rt8" firstAttribute="top" secondItem="fBr-MR-G98" secondAttribute="bottom" constant="21" id="4Hg-7p-YhL"/>
+                                                <constraint firstItem="r5e-hC-MB8" firstAttribute="leading" secondItem="fBr-MR-G98" secondAttribute="trailing" constant="8" id="MFi-be-ky5"/>
+                                                <constraint firstItem="fBr-MR-G98" firstAttribute="top" secondItem="ZRV-OC-GIG" secondAttribute="top" constant="20" id="NKX-bM-ZIc"/>
+                                                <constraint firstItem="FXw-fM-END" firstAttribute="top" secondItem="jZe-BJ-rt8" secondAttribute="bottom" constant="21" id="Oly-6i-FuN"/>
+                                                <constraint firstItem="vAe-KR-Svf" firstAttribute="leading" secondItem="FXw-fM-END" secondAttribute="trailing" constant="8" id="aPi-PP-3rf"/>
+                                                <constraint firstItem="vAe-KR-Svf" firstAttribute="top" secondItem="aJV-bB-xaQ" secondAttribute="bottom" constant="16" id="bUT-2s-nBE"/>
+                                                <constraint firstItem="fBr-MR-G98" firstAttribute="leading" secondItem="ZRV-OC-GIG" secondAttribute="leading" constant="14" id="dYt-0t-Bsx"/>
+                                                <constraint firstItem="aJV-bB-xaQ" firstAttribute="leading" secondItem="jZe-BJ-rt8" secondAttribute="trailing" constant="8" id="ipa-am-tlZ"/>
+                                                <constraint firstItem="FXw-fM-END" firstAttribute="leading" secondItem="ZRV-OC-GIG" secondAttribute="leading" constant="27" id="pLB-Mf-Emd"/>
+                                                <constraint firstItem="aJV-bB-xaQ" firstAttribute="top" secondItem="r5e-hC-MB8" secondAttribute="bottom" constant="16" id="qRk-E5-LuW"/>
+                                                <constraint firstItem="jZe-BJ-rt8" firstAttribute="leading" secondItem="ZRV-OC-GIG" secondAttribute="leading" constant="40" id="sbq-YM-BTH"/>
+                                            </constraints>
+                                        </view>
+                                    </tabViewItem>
+                                    <tabViewItem label="View" identifier="GroupNameDiffView" id="Ky7-kZ-oVC" userLabel="DiffView">
+                                        <view key="view" id="Mj0-VK-Qkp">
+                                            <rect key="frame" x="0.0" y="0.0" width="435" height="383"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pdp-oN-RRf">
+                                                    <rect key="frame" x="12" y="346" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="95" id="KLE-v1-RqJ"/>
+                                                        <constraint firstAttribute="height" constant="17" id="ii5-aA-JO7"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="半調濃度：" id="62b-Ud-yXf">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="半調濃度">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="X17-FV-RCb">
+                                                    <rect key="frame" x="12" y="247" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="jBg-Il-q9D"/>
+                                                        <constraint firstAttribute="width" constant="95" id="mSJ-7O-fvi"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="追加箇所の色：" id="AeT-oZ-Tdd">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="追加箇所の色">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bUB-rY-OTi">
+                                                    <rect key="frame" x="12" y="214" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="SYn-xx-rPI"/>
+                                                        <constraint firstAttribute="width" constant="95" id="sih-Ib-sj7"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="削除箇所の色：" id="9AT-Ra-eIS">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="削除箇所の色">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DQc-8Y-iG7">
+                                                    <rect key="frame" x="12" y="181" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="Oh4-HZ-A2x"/>
+                                                        <constraint firstAttribute="width" constant="95" id="otN-GO-lBm"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="差分箇所の色：" id="UBv-NS-5S1">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="差分箇所の色">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fji-yC-KXa">
+                                                    <rect key="frame" x="12" y="148" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="95" id="0it-Ii-h3r"/>
+                                                        <constraint firstAttribute="height" constant="17" id="LUw-4Y-Fij"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="差分の表現：" id="RTr-CW-WMq">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="差分の表現">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OE9-dG-Jti">
+                                                    <rect key="frame" x="12" y="82" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="V97-I3-1Ns"/>
+                                                        <constraint firstAttribute="width" constant="95" id="VCM-Ry-Mu4"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="罫線の太さ：" id="qef-Rm-Bca">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="罫線の太さ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="18J-se-XBz">
+                                                    <rect key="frame" x="12" y="115" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="KG4-7s-cPa"/>
+                                                        <constraint firstAttribute="width" constant="95" id="uHN-fd-kw3"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="青赤表示：" id="mLX-Mw-YaO">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="青赤表示">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kOb-GW-GcD">
+                                                    <rect key="frame" x="12" y="280" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="Zeh-T5-gu2"/>
+                                                        <constraint firstAttribute="width" constant="95" id="jv2-8Q-6Lz"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="半調画像色：" id="QtU-JL-PJ4">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="半調画像色">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="HiraKakuProN-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aQx-Ep-EcB">
+                                                    <rect key="frame" x="12" y="313" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="sJp-YI-TC8"/>
+                                                        <constraint firstAttribute="width" constant="95" id="zY8-aH-VSD"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="半調色：" id="e20-b0-zJe">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="半調色">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="HiraKakuProN-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0iB-dA-bd6" customClass="KZSlider">
+                                                    <rect key="frame" x="115" y="342" width="219" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="L3O-sv-GpZ"/>
+                                                        <constraint firstAttribute="width" constant="215" id="a7q-Ua-Aun"/>
+                                                    </constraints>
+                                                    <sliderCell key="cell" state="on" alignment="left" maxValue="100" doubleValue="70" tickMarkPosition="below" numberOfTickMarks="11" allowsTickMarkValuesOnly="YES" sliderType="linear" id="ZET-2q-9N5"/>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.backConsentration" id="r3Y-86-qzI"/>
+                                                    </connections>
+                                                </slider>
+                                                <colorWell translatesAutoresizingMaskIntoConstraints="NO" id="0Er-F6-B1k">
+                                                    <rect key="frame" x="117" y="310" width="44" height="23"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="23" id="4Gw-el-aeT"/>
+                                                        <constraint firstAttribute="width" constant="44" id="ylF-IL-n43"/>
+                                                    </constraints>
+                                                    <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.backAlphaColor" id="h7b-rs-rcr"/>
+                                                    </connections>
+                                                </colorWell>
+                                                <matrix identifier="backColor" verticalHuggingPriority="750" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j0C-uU-Tqd">
+                                                    <rect key="frame" x="117" y="279" width="120" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="Txd-q1-QFy"/>
+                                                        <constraint firstAttribute="width" constant="120" id="Wd6-1n-sQq"/>
+                                                    </constraints>
+                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    <size key="cellSize" width="59" height="18"/>
+                                                    <size key="intercellSpacing" width="4" height="2"/>
+                                                    <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" inset="2" id="SiH-s1-DZH">
+                                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                    </buttonCell>
+                                                    <cells>
+                                                        <column>
+                                                            <buttonCell type="radio" title="カラー" imagePosition="left" alignment="left" state="on" identifier="Color" tag="1" inset="2" id="Fto-01-c57">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                        </column>
+                                                        <column>
+                                                            <buttonCell type="radio" title="グレー" imagePosition="left" alignment="left" identifier="Gray" inset="2" id="5pC-Go-m1K">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                        </column>
+                                                    </cells>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="半調画像色">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <connections>
+                                                        <action selector="chgBackColorMode:" target="s57-8n-qIU" id="Lxv-uE-1bM"/>
+                                                    </connections>
+                                                </matrix>
+                                                <colorWell translatesAutoresizingMaskIntoConstraints="NO" id="qOr-q1-mi8">
+                                                    <rect key="frame" x="117" y="244" width="44" height="23"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="44" id="GlL-JC-eA9"/>
+                                                        <constraint firstAttribute="height" constant="23" id="wZW-IB-abZ"/>
+                                                    </constraints>
+                                                    <color key="color" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.addColor" id="RUA-dL-Q1y"/>
+                                                    </connections>
+                                                </colorWell>
+                                                <colorWell translatesAutoresizingMaskIntoConstraints="NO" id="QUJ-9r-d79">
+                                                    <rect key="frame" x="117" y="211" width="44" height="23"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="23" id="Da1-1T-dKA"/>
+                                                        <constraint firstAttribute="width" constant="44" id="yNT-hj-Vxp"/>
+                                                    </constraints>
+                                                    <color key="color" red="0.05813049898" green="0.055541899059999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.delColor" id="dbp-31-BxC"/>
+                                                    </connections>
+                                                </colorWell>
+                                                <colorWell translatesAutoresizingMaskIntoConstraints="NO" id="B22-Wm-4rR">
+                                                    <rect key="frame" x="117" y="178" width="44" height="23"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="23" id="0au-tb-LrP"/>
+                                                        <constraint firstAttribute="width" constant="44" id="2cb-RW-mUN"/>
+                                                    </constraints>
+                                                    <color key="color" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.diffColor" id="oXW-1d-bpq"/>
+                                                    </connections>
+                                                </colorWell>
+                                                <button translatesAutoresizingMaskIntoConstraints="NO" id="2S6-eh-B4P">
+                                                    <rect key="frame" x="167" y="246" width="100" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="14" id="GHY-b3-G7d"/>
+                                                        <constraint firstAttribute="width" constant="96" id="PQK-2U-TfN"/>
+                                                    </constraints>
+                                                    <buttonCell key="cell" type="check" title="すべてこの色" bezelStyle="regularSquare" imagePosition="left" inset="2" id="lPi-Qf-lr4">
+                                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                    </buttonCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="すべて">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="この">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="HiraKakuProN-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="色">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <connections>
+                                                        <action selector="allAddColor:" target="s57-8n-qIU" id="LJP-5T-HW2"/>
+                                                    </connections>
+                                                </button>
+                                                <button translatesAutoresizingMaskIntoConstraints="NO" id="4Ro-AB-sAY">
+                                                    <rect key="frame" x="167" y="213" width="100" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="96" id="4Wp-ty-OAj"/>
+                                                        <constraint firstAttribute="height" constant="14" id="ne0-H5-GIC"/>
+                                                    </constraints>
+                                                    <buttonCell key="cell" type="check" title="すべてこの色" bezelStyle="regularSquare" imagePosition="left" inset="2" id="p7y-Jq-1SX">
+                                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                    </buttonCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="すべて">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="この">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="HiraKakuProN-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="色">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <connections>
+                                                        <action selector="allDelColor:" target="s57-8n-qIU" id="ci6-Rj-69O"/>
+                                                    </connections>
+                                                </button>
+                                                <button translatesAutoresizingMaskIntoConstraints="NO" id="Dht-gE-RgZ">
+                                                    <rect key="frame" x="167" y="180" width="100" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="96" id="1gj-Tk-wCP"/>
+                                                        <constraint firstAttribute="height" constant="14" id="VDv-P4-Tdm"/>
+                                                    </constraints>
+                                                    <buttonCell key="cell" type="check" title="すべてこの色" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="DB7-lX-D9j">
+                                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                    </buttonCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="すべて">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="この">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="HiraKakuProN-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="色">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <connections>
+                                                        <action selector="allDiffColor:" target="s57-8n-qIU" id="e6I-vk-SgJ"/>
+                                                    </connections>
+                                                </button>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jwQ-65-e57">
+                                                    <rect key="frame" x="341" y="346" width="36" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="0DI-Tx-g1c"/>
+                                                        <constraint firstAttribute="width" constant="32" id="PPP-5D-xb3"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="nnO-Ip-3Fx">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.backConsentration" id="Ftt-rn-jI1"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="w0P-97-VUn">
+                                                    <rect key="frame" x="381" y="346" width="11" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="CqK-uT-DaN"/>
+                                                        <constraint firstAttribute="width" constant="7" id="kVj-Xh-KVr"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="%" id="4HB-TY-fek">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                </textField>
+                                                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="C0R-i6-Skv">
+                                                    <rect key="frame" x="115" y="143" width="204" height="26"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="199" id="20Z-ra-E32"/>
+                                                        <constraint firstAttribute="height" constant="21" id="7Fd-Fj-cdI"/>
+                                                    </constraints>
+                                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="Wkr-3k-Yd5">
+                                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="menu"/>
+                                                        <menu key="menu" title="OtherViews" id="Ryc-qI-lv4"/>
+                                                    </popUpButtonCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="selectedValue" keyPath="self.diffDispMode" id="Uvb-qi-nNk"/>
+                                                    </connections>
+                                                </popUpButton>
+                                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5iR-Yx-sok">
+                                                    <rect key="frame" x="117" y="79" width="57" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="Uog-pR-FVw"/>
+                                                        <constraint firstAttribute="width" constant="57" id="wHy-1i-vBk"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="EJE-8G-VSl">
+                                                        <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="0" maximumIntegerDigits="42" id="JyP-el-mSS"/>
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.lineThickness" id="mGO-aJ-xj3">
+                                                            <dictionary key="options">
+                                                                <bool key="NSContinuouslyUpdatesValue" value="YES"/>
+                                                                <bool key="NSValidatesImmediately" value="YES"/>
+                                                                <string key="NSValueTransformerName">KZIntToString</string>
+                                                            </dictionary>
+                                                        </binding>
+                                                    </connections>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sqo-EB-RX3">
+                                                    <rect key="frame" x="183" y="82" width="19" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="15" id="ASA-zn-9dP"/>
+                                                        <constraint firstAttribute="height" constant="17" id="mme-q7-04t"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="px" id="j4d-mh-fUo">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                </textField>
+                                                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="U9G-n5-Srd">
+                                                    <rect key="frame" x="115" y="110" width="204" height="26"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="dt9-co-GQK"/>
+                                                        <constraint firstAttribute="width" constant="199" id="efL-qb-b3a"/>
+                                                    </constraints>
+                                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="JAs-PO-b4j">
+                                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="menu"/>
+                                                        <menu key="menu" title="OtherViews" id="78y-yB-l5n"/>
+                                                    </popUpButtonCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="selectedValue" keyPath="self.aoAkaMode" id="Fjw-2P-dXa"/>
+                                                    </connections>
+                                                </popUpButton>
+                                                <button translatesAutoresizingMaskIntoConstraints="NO" id="6eC-fl-BOi">
+                                                    <rect key="frame" x="231" y="81" width="87" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="83" id="H6m-xB-l3h"/>
+                                                        <constraint firstAttribute="height" constant="14" id="LNe-Bm-6tr"/>
+                                                    </constraints>
+                                                    <buttonCell key="cell" type="check" title="塗りつぶす" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="2f9-ll-JMU">
+                                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                    </buttonCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="塗りつぶす">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.isFillLine" id="fo8-7w-FKa"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="j0C-uU-Tqd" firstAttribute="top" secondItem="0Er-F6-B1k" secondAttribute="bottom" constant="13" id="10k-bS-thZ"/>
+                                                <constraint firstItem="C0R-i6-Skv" firstAttribute="top" secondItem="B22-Wm-4rR" secondAttribute="bottom" constant="11" id="257-87-tjF"/>
+                                                <constraint firstItem="jwQ-65-e57" firstAttribute="top" secondItem="Mj0-VK-Qkp" secondAttribute="top" constant="20" id="3vt-l2-er5"/>
+                                                <constraint firstItem="4Ro-AB-sAY" firstAttribute="leading" secondItem="QUJ-9r-d79" secondAttribute="trailing" constant="8" id="4yJ-6b-uyz"/>
+                                                <constraint firstItem="QUJ-9r-d79" firstAttribute="top" secondItem="qOr-q1-mi8" secondAttribute="bottom" constant="10" id="5oF-Kd-FAf"/>
+                                                <constraint firstItem="18J-se-XBz" firstAttribute="top" secondItem="fji-yC-KXa" secondAttribute="bottom" constant="16" id="6ze-W3-Asg"/>
+                                                <constraint firstItem="fji-yC-KXa" firstAttribute="leading" secondItem="Mj0-VK-Qkp" secondAttribute="leading" constant="14" id="7jh-8N-0jN"/>
+                                                <constraint firstItem="OE9-dG-Jti" firstAttribute="leading" secondItem="Mj0-VK-Qkp" secondAttribute="leading" constant="14" id="7u9-kK-znF"/>
+                                                <constraint firstItem="jwQ-65-e57" firstAttribute="leading" secondItem="0iB-dA-bd6" secondAttribute="trailing" constant="11" id="9uW-A3-XyM"/>
+                                                <constraint firstItem="2S6-eh-B4P" firstAttribute="leading" secondItem="qOr-q1-mi8" secondAttribute="trailing" constant="8" id="Aab-cS-2S6"/>
+                                                <constraint firstItem="B22-Wm-4rR" firstAttribute="top" secondItem="QUJ-9r-d79" secondAttribute="bottom" constant="10" id="AfN-XP-XVL"/>
+                                                <constraint firstItem="pdp-oN-RRf" firstAttribute="top" secondItem="Mj0-VK-Qkp" secondAttribute="top" constant="20" id="An7-n4-pBM"/>
+                                                <constraint firstItem="Dht-gE-RgZ" firstAttribute="leading" secondItem="B22-Wm-4rR" secondAttribute="trailing" constant="8" id="BdD-we-Wsk"/>
+                                                <constraint firstItem="U9G-n5-Srd" firstAttribute="top" secondItem="C0R-i6-Skv" secondAttribute="bottom" constant="12" id="Biy-eH-ibr"/>
+                                                <constraint firstItem="18J-se-XBz" firstAttribute="leading" secondItem="Mj0-VK-Qkp" secondAttribute="leading" constant="14" id="CUg-EP-keQ"/>
+                                                <constraint firstItem="pdp-oN-RRf" firstAttribute="leading" secondItem="Mj0-VK-Qkp" secondAttribute="leading" constant="14" id="FQi-bq-tye"/>
+                                                <constraint firstItem="kOb-GW-GcD" firstAttribute="top" secondItem="aQx-Ep-EcB" secondAttribute="bottom" constant="16" id="FVR-XG-BkK"/>
+                                                <constraint firstItem="qOr-q1-mi8" firstAttribute="leading" secondItem="X17-FV-RCb" secondAttribute="trailing" constant="8" id="Fxp-D8-JdA"/>
+                                                <constraint firstItem="4Ro-AB-sAY" firstAttribute="top" secondItem="2S6-eh-B4P" secondAttribute="bottom" constant="19" id="MJE-XK-0fj"/>
+                                                <constraint firstItem="6eC-fl-BOi" firstAttribute="top" secondItem="U9G-n5-Srd" secondAttribute="bottom" constant="16" id="PAL-UY-d8S"/>
+                                                <constraint firstItem="0Er-F6-B1k" firstAttribute="top" secondItem="0iB-dA-bd6" secondAttribute="bottom" constant="10" id="Q3v-ay-PgY"/>
+                                                <constraint firstItem="6eC-fl-BOi" firstAttribute="leading" secondItem="sqo-EB-RX3" secondAttribute="trailing" constant="33" id="RUh-OW-SfM"/>
+                                                <constraint firstItem="U9G-n5-Srd" firstAttribute="leading" secondItem="18J-se-XBz" secondAttribute="trailing" constant="8" id="Tvf-9u-4e6"/>
+                                                <constraint firstItem="aQx-Ep-EcB" firstAttribute="top" secondItem="pdp-oN-RRf" secondAttribute="bottom" constant="16" id="WP7-yq-di8"/>
+                                                <constraint firstItem="fji-yC-KXa" firstAttribute="top" secondItem="DQc-8Y-iG7" secondAttribute="bottom" constant="16" id="XQS-zl-TtV"/>
+                                                <constraint firstItem="QUJ-9r-d79" firstAttribute="leading" secondItem="bUB-rY-OTi" secondAttribute="trailing" constant="8" id="YC1-ac-kdt"/>
+                                                <constraint firstItem="bUB-rY-OTi" firstAttribute="leading" secondItem="Mj0-VK-Qkp" secondAttribute="leading" constant="14" id="Ywq-vX-mx3"/>
+                                                <constraint firstItem="5iR-Yx-sok" firstAttribute="top" secondItem="U9G-n5-Srd" secondAttribute="bottom" constant="12" id="Yy7-Mo-vQB"/>
+                                                <constraint firstItem="DQc-8Y-iG7" firstAttribute="leading" secondItem="Mj0-VK-Qkp" secondAttribute="leading" constant="14" id="ZlM-YL-EJg"/>
+                                                <constraint firstItem="X17-FV-RCb" firstAttribute="leading" secondItem="Mj0-VK-Qkp" secondAttribute="leading" constant="14" id="bSj-o9-mMb"/>
+                                                <constraint firstItem="aQx-Ep-EcB" firstAttribute="leading" secondItem="Mj0-VK-Qkp" secondAttribute="leading" constant="14" id="c6g-pG-iaW"/>
+                                                <constraint firstItem="kOb-GW-GcD" firstAttribute="leading" secondItem="Mj0-VK-Qkp" secondAttribute="leading" constant="14" id="chX-cE-ulw"/>
+                                                <constraint firstItem="w0P-97-VUn" firstAttribute="top" secondItem="Mj0-VK-Qkp" secondAttribute="top" constant="20" id="eO6-eC-pa1"/>
+                                                <constraint firstItem="C0R-i6-Skv" firstAttribute="leading" secondItem="fji-yC-KXa" secondAttribute="trailing" constant="8" id="g32-0W-cTG"/>
+                                                <constraint firstItem="B22-Wm-4rR" firstAttribute="leading" secondItem="DQc-8Y-iG7" secondAttribute="trailing" constant="8" id="hsz-qA-GBT"/>
+                                                <constraint firstItem="DQc-8Y-iG7" firstAttribute="top" secondItem="bUB-rY-OTi" secondAttribute="bottom" constant="16" id="iCd-WJ-fIO"/>
+                                                <constraint firstItem="j0C-uU-Tqd" firstAttribute="leading" secondItem="kOb-GW-GcD" secondAttribute="trailing" constant="8" id="is1-bH-eTt"/>
+                                                <constraint firstItem="OE9-dG-Jti" firstAttribute="top" secondItem="18J-se-XBz" secondAttribute="bottom" constant="16" id="kFJ-7y-EU7"/>
+                                                <constraint firstItem="sqo-EB-RX3" firstAttribute="top" secondItem="U9G-n5-Srd" secondAttribute="bottom" constant="14" id="mvW-nA-s4R"/>
+                                                <constraint firstItem="0Er-F6-B1k" firstAttribute="leading" secondItem="aQx-Ep-EcB" secondAttribute="trailing" constant="8" id="qZX-Hx-jPE"/>
+                                                <constraint firstItem="bUB-rY-OTi" firstAttribute="top" secondItem="X17-FV-RCb" secondAttribute="bottom" constant="16" id="s8b-XE-dM2"/>
+                                                <constraint firstItem="qOr-q1-mi8" firstAttribute="top" secondItem="j0C-uU-Tqd" secondAttribute="bottom" constant="12" id="v6B-qQ-eab"/>
+                                                <constraint firstItem="0iB-dA-bd6" firstAttribute="leading" secondItem="pdp-oN-RRf" secondAttribute="trailing" constant="8" id="vXd-eZ-0Lh"/>
+                                                <constraint firstItem="sqo-EB-RX3" firstAttribute="leading" secondItem="5iR-Yx-sok" secondAttribute="trailing" constant="11" id="vsz-l0-ewf"/>
+                                                <constraint firstItem="X17-FV-RCb" firstAttribute="top" secondItem="kOb-GW-GcD" secondAttribute="bottom" constant="16" id="xxX-Jn-X3x"/>
+                                                <constraint firstItem="w0P-97-VUn" firstAttribute="leading" secondItem="jwQ-65-e57" secondAttribute="trailing" constant="8" id="yaL-Bb-eTu"/>
+                                                <constraint firstItem="2S6-eh-B4P" firstAttribute="top" secondItem="j0C-uU-Tqd" secondAttribute="bottom" constant="17" id="yhJ-rI-m6a"/>
+                                                <constraint firstItem="Dht-gE-RgZ" firstAttribute="top" secondItem="4Ro-AB-sAY" secondAttribute="bottom" constant="19" id="yn8-8E-5ET"/>
+                                                <constraint firstItem="5iR-Yx-sok" firstAttribute="leading" secondItem="OE9-dG-Jti" secondAttribute="trailing" constant="8" id="zUx-kc-8KK"/>
+                                                <constraint firstItem="0iB-dA-bd6" firstAttribute="top" secondItem="Mj0-VK-Qkp" secondAttribute="top" constant="18" id="zeN-id-CM3"/>
+                                            </constraints>
+                                        </view>
+                                    </tabViewItem>
+                                    <tabViewItem label="Raster" identifier="GroupNameRaster" id="wTt-Pr-js9" userLabel="Raster">
+                                        <view key="view" id="XTW-05-vCh">
+                                            <rect key="frame" x="0.0" y="0.0" width="435" height="352"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9Pu-Mi-VsS">
+                                                    <rect key="frame" x="12" y="315" width="93" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="89" id="1pP-Mt-g2J"/>
+                                                        <constraint firstAttribute="height" constant="17" id="qcb-Hr-SqT"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="カラーモード：" id="OsD-WK-YxJ">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="カラーモード">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Q9l-45-yz6">
+                                                    <rect key="frame" x="12" y="282" width="93" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="89" id="Ec7-md-ndd"/>
+                                                        <constraint firstAttribute="height" constant="17" id="Pkj-ha-j44"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="17" id="UuT-sl-SS7"/>
+                                                        <constraint firstAttribute="width" constant="89" id="dt6-8M-2L7"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="解像度：" id="Ioy-GC-yXk">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="カラーモード">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <matrix identifier="rasterColor" verticalHuggingPriority="750" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4G3-EB-am3">
+                                                    <rect key="frame" x="111" y="315" width="120" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="120" id="K70-bU-aeT"/>
+                                                        <constraint firstAttribute="height" constant="18" id="t1p-Df-Xb5"/>
+                                                    </constraints>
+                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    <size key="cellSize" width="59" height="18"/>
+                                                    <size key="intercellSpacing" width="4" height="2"/>
+                                                    <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" inset="2" id="yif-bO-dps">
+                                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                    </buttonCell>
+                                                    <cells>
+                                                        <column>
+                                                            <buttonCell type="radio" title="RGB" imagePosition="left" alignment="left" state="on" tag="1" inset="2" id="ODx-aC-PHO">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                        </column>
+                                                        <column>
+                                                            <buttonCell type="radio" title="グレー" imagePosition="left" alignment="left" inset="2" id="Xhq-VG-4cF">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                        </column>
+                                                    </cells>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="check">
+                                                            <attributes>
+                                                                <font key="NSFont" metaFont="smallSystem"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="カラーモード">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <connections>
+                                                        <action selector="chgBackColorMode:" target="s57-8n-qIU" id="bt1-01-0dy"/>
+                                                    </connections>
+                                                </matrix>
+                                                <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SNv-P0-LSL" customClass="KZSlider">
+                                                    <rect key="frame" x="109" y="278" width="219" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="9Ht-uJ-AGb"/>
+                                                        <constraint firstAttribute="width" constant="215" id="RjW-1c-y9I"/>
+                                                    </constraints>
+                                                    <sliderCell key="cell" state="on" alignment="left" minValue="72" maxValue="360" doubleValue="168" tickMarkPosition="below" numberOfTickMarks="13" allowsTickMarkValuesOnly="YES" sliderType="linear" id="VnZ-Nl-dsn"/>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.rasterDpi" id="jJp-g1-Kza"/>
+                                                    </connections>
+                                                </slider>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jp0-O4-3nY">
+                                                    <rect key="frame" x="332" y="282" width="39" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="LFh-Ub-hnN"/>
+                                                        <constraint firstAttribute="width" constant="35" id="OaV-mo-qTZ"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="360.0" id="80t-uv-Qmp">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.rasterDpi" id="nlW-hm-ZQz"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gW0-TB-uEw">
+                                                    <rect key="frame" x="375" y="282" width="23" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="19" id="Q85-bz-RSi"/>
+                                                        <constraint firstAttribute="height" constant="17" id="bRz-BR-dJ0"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="dpi" id="3sb-kM-bea">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Jp0-O4-3nY" firstAttribute="top" secondItem="XTW-05-vCh" secondAttribute="top" constant="53" id="21D-dC-Z8V"/>
+                                                <constraint firstItem="Jp0-O4-3nY" firstAttribute="leading" secondItem="SNv-P0-LSL" secondAttribute="trailing" constant="8" id="5L5-c8-CC9"/>
+                                                <constraint firstItem="9Pu-Mi-VsS" firstAttribute="leading" secondItem="XTW-05-vCh" secondAttribute="leading" constant="14" id="6Uu-TB-sw6"/>
+                                                <constraint firstItem="SNv-P0-LSL" firstAttribute="leading" secondItem="Q9l-45-yz6" secondAttribute="trailing" constant="8" id="Abz-fM-2Gk"/>
+                                                <constraint firstItem="Q9l-45-yz6" firstAttribute="top" secondItem="9Pu-Mi-VsS" secondAttribute="bottom" constant="16" id="DCB-Vr-1q5"/>
+                                                <constraint firstItem="gW0-TB-uEw" firstAttribute="leading" secondItem="Jp0-O4-3nY" secondAttribute="trailing" constant="8" id="M96-gy-Clu"/>
+                                                <constraint firstItem="4G3-EB-am3" firstAttribute="top" secondItem="XTW-05-vCh" secondAttribute="top" constant="19" id="Mr7-Jw-Jtl"/>
+                                                <constraint firstItem="4G3-EB-am3" firstAttribute="leading" secondItem="9Pu-Mi-VsS" secondAttribute="trailing" constant="8" id="QN2-e5-L9h"/>
+                                                <constraint firstItem="gW0-TB-uEw" firstAttribute="top" secondItem="XTW-05-vCh" secondAttribute="top" constant="53" id="itM-ch-Y1a"/>
+                                                <constraint firstItem="Q9l-45-yz6" firstAttribute="leading" secondItem="XTW-05-vCh" secondAttribute="leading" constant="14" id="jzO-I3-Lb9"/>
+                                                <constraint firstItem="9Pu-Mi-VsS" firstAttribute="top" secondItem="XTW-05-vCh" secondAttribute="top" constant="20" id="kl2-Hy-goR"/>
+                                                <constraint firstItem="SNv-P0-LSL" firstAttribute="top" secondItem="4G3-EB-am3" secondAttribute="bottom" constant="14" id="rWz-Zh-uOU"/>
+                                            </constraints>
+                                        </view>
+                                    </tabViewItem>
+                                    <tabViewItem label="File" identifier="GroupNameFile" id="5Cd-L3-piv" userLabel="File">
+                                        <view key="view" id="k2t-xK-CK5">
+                                            <rect key="frame" x="0.0" y="0.0" width="435" height="352"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3Ke-Xm-6ah">
+                                                    <rect key="frame" x="12" y="308" width="139" height="26"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="134" id="a1q-Hy-JSM"/>
+                                                        <constraint firstAttribute="height" constant="21" id="hxk-KW-Ll7"/>
+                                                    </constraints>
+                                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="qR5-YO-wDD">
+                                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="menu"/>
+                                                        <menu key="menu" title="OtherViews" id="m8i-Ak-eJy"/>
+                                                    </popUpButtonCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="selectedValue" keyPath="self.makeFolderPlace" id="tDu-hO-ZHl"/>
+                                                    </connections>
+                                                </popUpButton>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MKF-KN-bTL">
+                                                    <rect key="frame" x="154" y="313" width="132" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="128" id="Leb-Xi-13U"/>
+                                                        <constraint firstAttribute="height" constant="17" id="nXL-bL-ROL"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="に下記フォルダを作成" id="QJB-ti-kGf">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="に下記フォルダを作成">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bbh-Bt-Nn9">
+                                                    <rect key="frame" x="12" y="277" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="CiV-gY-itr"/>
+                                                        <constraint firstAttribute="width" constant="95" id="RFX-wZ-3Wk"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="フォルダ名：" id="FXL-Xt-wJw">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="フォルダ名">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="HiraKakuProN-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9dy-S3-FFd">
+                                                    <rect key="frame" x="12" y="247" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="Zf0-Kh-Oiz"/>
+                                                        <constraint firstAttribute="width" constant="95" id="aON-4d-zQV"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="ファイル名：" id="QAS-nP-wnS">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="ファイル名">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7fV-xc-99E">
+                                                    <rect key="frame" x="184" y="248" width="80" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="76" id="UNf-sw-9NL"/>
+                                                        <constraint firstAttribute="height" constant="17" id="Uka-Uo-9mm"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="元ファイル名" id="6Gz-7b-KnY">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="元ファイル名">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bI9-ta-CWR">
+                                                    <rect key="frame" x="12" y="187" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="bkI-jG-gM7"/>
+                                                        <constraint firstAttribute="width" constant="95" id="s0b-Lo-5fn"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="保存設定：" id="EZV-Yh-EG8">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="保存設定">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="M7d-gs-ktS">
+                                                    <rect key="frame" x="12" y="217" width="99" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="95" id="O0v-4C-9y7"/>
+                                                        <constraint firstAttribute="height" constant="17" id="oKA-ZY-1RD"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="ファイル形式：" id="zIq-Vp-i8p">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="ファイル形式">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <comboBox verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="su4-NZ-tT4">
+                                                    <rect key="frame" x="117" y="273" width="217" height="26"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="cgv-O7-U1t"/>
+                                                        <constraint firstAttribute="width" constant="214" id="mMS-9o-qk6"/>
+                                                    </constraints>
+                                                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" usesDataSource="YES" numberOfVisibleItems="5" id="TwW-E8-rc3">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </comboBoxCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.makeFolderName" id="x9u-zT-cvT"/>
+                                                        <outlet property="dataSource" destination="ly6-Zw-WZb" id="8DX-3z-pQM"/>
+                                                        <outlet property="delegate" destination="s57-8n-qIU" id="rcy-xg-3IM"/>
+                                                    </connections>
+                                                </comboBox>
+                                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="z38-hJ-B5x">
+                                                    <rect key="frame" x="117" y="245" width="61" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="GbM-ZQ-abt"/>
+                                                        <constraint firstAttribute="width" constant="61" id="muW-Q8-jEH"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="N3C-Cz-b1F">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.filePrefix" id="Zt8-Bq-UEo"/>
+                                                    </connections>
+                                                </textField>
+                                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="B2B-IM-N6m">
+                                                    <rect key="frame" x="270" y="245" width="61" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="61" id="Vrm-V0-502"/>
+                                                        <constraint firstAttribute="height" constant="22" id="gEc-Y0-gpF"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="i1o-Cb-6We">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.fileSuffix" id="xDJ-hE-nTn"/>
+                                                    </connections>
+                                                </textField>
+                                                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sW9-Xp-NK0">
+                                                    <rect key="frame" x="115" y="212" width="75" height="26"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="2Gs-T7-3Pp"/>
+                                                        <constraint firstAttribute="width" constant="70" id="cjn-yL-L7I"/>
+                                                    </constraints>
+                                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="bgm-7T-CfZ">
+                                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="menu"/>
+                                                        <menu key="menu" title="OtherViews" id="2Qn-zg-1oE"/>
+                                                    </popUpButtonCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="selectedTag" keyPath="self.saveType" id="i3I-zc-Epd"/>
+                                                    </connections>
+                                                </popUpButton>
+                                                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5UL-1h-OB5">
+                                                    <rect key="frame" x="115" y="182" width="219" height="26"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="6fr-7X-eXb"/>
+                                                        <constraint firstAttribute="width" constant="214" id="cUj-wE-pcp"/>
+                                                    </constraints>
+                                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="TGP-Y2-NzG">
+                                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="menu"/>
+                                                        <menu key="menu" title="OtherViews" id="G2n-0X-1Qo"/>
+                                                    </popUpButtonCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="selectedTag" keyPath="self.isSaveLayered" id="KLs-Vs-4Vw"/>
+                                                    </connections>
+                                                </popUpButton>
+                                                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="V3U-8l-UVV">
+                                                    <rect key="frame" x="115" y="151" width="219" height="26"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="SKS-Ks-0cH"/>
+                                                        <constraint firstAttribute="width" constant="214" id="aLs-ju-Wfh"/>
+                                                    </constraints>
+                                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="Q2M-dA-Aee">
+                                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="menu"/>
+                                                        <menu key="menu" title="OtherViews" id="zOL-tr-EZd"/>
+                                                    </popUpButtonCell>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="selectedTag" keyPath="self.isSaveColor" id="kTD-HJ-kMS"/>
+                                                    </connections>
+                                                </popUpButton>
+                                                <button translatesAutoresizingMaskIntoConstraints="NO" id="oVB-bU-lW1">
+                                                    <rect key="frame" x="117" y="118" width="221" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="217" id="IGP-3F-rSZ"/>
+                                                        <constraint firstAttribute="height" constant="14" id="xdt-ul-zxW"/>
+                                                    </constraints>
+                                                    <buttonCell key="cell" type="check" title="差分無しでもファイル保存" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="ntA-OG-Fsn">
+                                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                    </buttonCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="差分無しでもファイル保存">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <connections>
+                                                        <binding destination="s57-8n-qIU" name="value" keyPath="self.isSaveNoChange" id="7m2-y6-qFJ"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="M7d-gs-ktS" firstAttribute="top" secondItem="9dy-S3-FFd" secondAttribute="bottom" constant="13" id="1KJ-53-OnX"/>
+                                                <constraint firstItem="9dy-S3-FFd" firstAttribute="top" secondItem="bbh-Bt-Nn9" secondAttribute="bottom" constant="13" id="2p8-ec-QXI"/>
+                                                <constraint firstItem="oVB-bU-lW1" firstAttribute="leading" secondItem="k2t-xK-CK5" secondAttribute="leading" constant="119" id="31s-lC-HmJ"/>
+                                                <constraint firstItem="9dy-S3-FFd" firstAttribute="leading" secondItem="k2t-xK-CK5" secondAttribute="leading" constant="14" id="6uI-xC-Q4P"/>
+                                                <constraint firstItem="B2B-IM-N6m" firstAttribute="top" secondItem="su4-NZ-tT4" secondAttribute="bottom" constant="10" id="9KS-eo-M3E"/>
+                                                <constraint firstItem="MKF-KN-bTL" firstAttribute="leading" secondItem="3Ke-Xm-6ah" secondAttribute="trailing" constant="8" id="Bjv-xo-pZJ"/>
+                                                <constraint firstItem="oVB-bU-lW1" firstAttribute="top" secondItem="V3U-8l-UVV" secondAttribute="bottom" constant="20" id="KcX-xu-18K"/>
+                                                <constraint firstItem="3Ke-Xm-6ah" firstAttribute="top" secondItem="k2t-xK-CK5" secondAttribute="top" constant="20" id="LVi-m2-Hnd"/>
+                                                <constraint firstItem="B2B-IM-N6m" firstAttribute="leading" secondItem="7fV-xc-99E" secondAttribute="trailing" constant="8" id="Nmt-61-Myw"/>
+                                                <constraint firstItem="bbh-Bt-Nn9" firstAttribute="leading" secondItem="k2t-xK-CK5" secondAttribute="leading" constant="14" id="Q60-YS-Q2Z"/>
+                                                <constraint firstItem="MKF-KN-bTL" firstAttribute="top" secondItem="k2t-xK-CK5" secondAttribute="top" constant="22" id="Sf1-st-57I"/>
+                                                <constraint firstItem="sW9-Xp-NK0" firstAttribute="top" secondItem="z38-hJ-B5x" secondAttribute="bottom" constant="9" id="SwC-Bl-e0M"/>
+                                                <constraint firstItem="5UL-1h-OB5" firstAttribute="leading" secondItem="bI9-ta-CWR" secondAttribute="trailing" constant="8" id="VNa-KM-d8u"/>
+                                                <constraint firstItem="z38-hJ-B5x" firstAttribute="top" secondItem="su4-NZ-tT4" secondAttribute="bottom" constant="10" id="WEr-QM-cYO"/>
+                                                <constraint firstItem="bI9-ta-CWR" firstAttribute="leading" secondItem="k2t-xK-CK5" secondAttribute="leading" constant="14" id="bRW-Yt-GuT"/>
+                                                <constraint firstItem="V3U-8l-UVV" firstAttribute="top" secondItem="5UL-1h-OB5" secondAttribute="bottom" constant="10" id="gVd-hz-REq"/>
+                                                <constraint firstItem="7fV-xc-99E" firstAttribute="leading" secondItem="z38-hJ-B5x" secondAttribute="trailing" constant="8" id="haO-wR-M2i"/>
+                                                <constraint firstItem="7fV-xc-99E" firstAttribute="top" secondItem="su4-NZ-tT4" secondAttribute="bottom" constant="12" id="iPe-61-xWh"/>
+                                                <constraint firstItem="sW9-Xp-NK0" firstAttribute="leading" secondItem="M7d-gs-ktS" secondAttribute="trailing" constant="8" id="pFh-xl-I2Y"/>
+                                                <constraint firstItem="bI9-ta-CWR" firstAttribute="top" secondItem="M7d-gs-ktS" secondAttribute="bottom" constant="13" id="po4-UW-qr8"/>
+                                                <constraint firstItem="su4-NZ-tT4" firstAttribute="top" secondItem="3Ke-Xm-6ah" secondAttribute="bottom" constant="14" id="q5V-7J-vD8"/>
+                                                <constraint firstItem="5UL-1h-OB5" firstAttribute="top" secondItem="sW9-Xp-NK0" secondAttribute="bottom" constant="9" id="rJF-y5-2bQ"/>
+                                                <constraint firstItem="z38-hJ-B5x" firstAttribute="leading" secondItem="9dy-S3-FFd" secondAttribute="trailing" constant="8" id="rTS-cT-KlD"/>
+                                                <constraint firstItem="su4-NZ-tT4" firstAttribute="leading" secondItem="bbh-Bt-Nn9" secondAttribute="trailing" constant="8" id="rje-KV-Fms"/>
+                                                <constraint firstItem="V3U-8l-UVV" firstAttribute="leading" secondItem="k2t-xK-CK5" secondAttribute="leading" constant="117" id="sVj-Q2-w6Y"/>
+                                                <constraint firstItem="bbh-Bt-Nn9" firstAttribute="top" secondItem="3Ke-Xm-6ah" secondAttribute="bottom" constant="17" id="t7D-RR-TsS"/>
+                                                <constraint firstItem="3Ke-Xm-6ah" firstAttribute="leading" secondItem="k2t-xK-CK5" secondAttribute="leading" constant="14" id="vi0-sQ-mIP"/>
+                                                <constraint firstItem="M7d-gs-ktS" firstAttribute="leading" secondItem="k2t-xK-CK5" secondAttribute="leading" constant="14" id="w5V-R1-4T9"/>
+                                            </constraints>
+                                        </view>
+                                    </tabViewItem>
+                                    <tabViewItem label="Application" identifier="GroupNameApplication" id="2cY-m2-ExO" userLabel="Application">
+                                        <view key="view" id="X28-F9-eMU">
+                                            <rect key="frame" x="0.0" y="0.0" width="435" height="352"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EfC-CV-yL8">
+                                                    <rect key="frame" x="12" y="315" width="106" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="jex-bB-M3K"/>
+                                                        <constraint firstAttribute="width" constant="102" id="son-fn-2qZ"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="最大スレッド数：" id="lKW-vr-mPA">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <attributedString key="userComments">
+                                                        <fragment content="最大スレッド数">
+                                                            <attributes>
+                                                                <font key="NSFont" size="11" name="AquaKana"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </textField>
+                                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fUe-mU-0KG">
+                                                    <rect key="frame" x="124" y="313" width="67" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="67" id="7ME-yl-1Fc"/>
+                                                        <constraint firstAttribute="height" constant="22" id="tnJ-Oy-Bgm"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="BjF-Qi-rjL">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="EfC-CV-yL8" firstAttribute="top" secondItem="X28-F9-eMU" secondAttribute="top" constant="20" id="4z4-qN-asL"/>
+                                                <constraint firstItem="EfC-CV-yL8" firstAttribute="leading" secondItem="X28-F9-eMU" secondAttribute="leading" constant="14" id="6U4-3m-cOl"/>
+                                                <constraint firstItem="fUe-mU-0KG" firstAttribute="top" secondItem="X28-F9-eMU" secondAttribute="top" constant="17" id="Anj-CH-5m8"/>
+                                                <constraint firstItem="fUe-mU-0KG" firstAttribute="leading" secondItem="EfC-CV-yL8" secondAttribute="trailing" constant="8" id="dDH-eB-jaL"/>
+                                            </constraints>
+                                        </view>
+                                    </tabViewItem>
+                                    <tabViewItem label="Preview" identifier="GroupNamePreview" id="8TF-zM-k4M" userLabel="Preview">
+                                        <view key="view" id="Tgc-PQ-pyB">
+                                            <rect key="frame" x="0.0" y="0.0" width="435" height="352"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                    </tabViewItem>
+                                </tabViewItems>
+                            </tabView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="2yP-HW-IFB" firstAttribute="leading" secondItem="Id7-L4-ZCh" secondAttribute="trailing" id="5Dg-Iu-F2h"/>
+                            <constraint firstItem="Id7-L4-ZCh" firstAttribute="top" secondItem="jw3-bv-WCT" secondAttribute="top" id="INh-1L-Uza"/>
+                            <constraint firstItem="Id7-L4-ZCh" firstAttribute="leading" secondItem="jw3-bv-WCT" secondAttribute="leading" id="JFM-Eb-WVS"/>
+                            <constraint firstAttribute="trailing" secondItem="2yP-HW-IFB" secondAttribute="trailing" id="e8u-pR-hmL"/>
+                            <constraint firstAttribute="bottom" secondItem="2yP-HW-IFB" secondAttribute="bottom" id="fIw-m2-Cfi"/>
+                            <constraint firstItem="2yP-HW-IFB" firstAttribute="top" secondItem="jw3-bv-WCT" secondAttribute="top" id="gHS-DU-s1p"/>
+                            <constraint firstAttribute="bottom" secondItem="Id7-L4-ZCh" secondAttribute="bottom" id="tNK-fn-g51"/>
+                        </constraints>
+                    </customView>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vS9-NE-0JT">
+                        <rect key="frame" x="18" y="431" width="80" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76" id="azH-0J-1S7"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="プリセット：" id="qDO-L5-Jxw">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <attributedString key="userComments">
+                            <fragment content="プリセット">
+                                <attributes>
+                                    <font key="NSFont" size="11" name="AquaKana"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </textField>
+                    <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zZF-ED-G4i">
+                        <rect key="frame" x="102" y="426" width="200" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="195" id="rbl-vQ-dZY"/>
+                        </constraints>
+                        <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="cgO-Au-NvH">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="menu"/>
+                            <menu key="menu" title="OtherViews" id="vpg-51-uBx"/>
+                        </popUpButtonCell>
+                        <connections>
+                            <action selector="selectPreset:" target="s57-8n-qIU" id="bUn-jY-hIF"/>
+                        </connections>
+                    </popUpButton>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Gol-aA-b6l">
+                        <rect key="frame" x="457" y="422" width="82" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="S3U-cF-6Eg"/>
+                            <constraint firstAttribute="height" constant="21" id="Tc1-R3-96s"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="削除" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7Rq-xV-sGc">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <attributedString key="userComments">
+                            <fragment content="プリセット削除">
+                                <attributes>
+                                    <font key="NSFont" size="11" name="AquaKana"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <connections>
+                            <action selector="delPreset:" target="s57-8n-qIU" id="wzV-tj-e6M"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FxK-Ef-jDb">
+                        <rect key="frame" x="301" y="422" width="82" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="ai9-8p-Zyf"/>
+                            <constraint firstAttribute="height" constant="21" id="wdY-yZ-BNr"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="追加" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ZXE-Ht-mGQ">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <attributedString key="userComments">
+                            <fragment content="プリセット保存">
+                                <attributes>
+                                    <font key="NSFont" size="11" name="AquaKana"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <connections>
+                            <action selector="showAddPreset:" target="s57-8n-qIU" id="dVw-tF-SMs"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Jk-oe-7Zt">
+                        <rect key="frame" x="498" y="4" width="123" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="EYJ-sH-Ncg"/>
+                            <constraint firstAttribute="width" constant="111" id="kA2-DV-5BS"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="設定反映" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mqt-op-6z1">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <attributedString key="userComments">
+                            <fragment content="設定反映">
+                                <attributes>
+                                    <font key="NSFont" size="11" name="AquaKana"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <connections>
+                            <action selector="applySetting:" target="s57-8n-qIU" id="LmM-KE-wtP"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uEb-nr-3N1">
+                        <rect key="frame" x="379" y="422" width="82" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="auY-W8-hqb"/>
+                            <constraint firstAttribute="width" constant="70" id="wYD-ey-2Ve"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="上書" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gWQ-GV-SZr">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="updatePreset:" target="s57-8n-qIU" id="Ihh-AO-Dd1"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="jw3-bv-WCT" secondAttribute="trailing" id="3CS-Ce-uiq"/>
+                    <constraint firstItem="vS9-NE-0JT" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="15" id="9vt-Bq-ahU"/>
+                    <constraint firstItem="FxK-Ef-jDb" firstAttribute="leading" secondItem="zZF-ED-G4i" secondAttribute="trailing" constant="8" id="BlA-6T-Klf"/>
+                    <constraint firstItem="jw3-bv-WCT" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="DCN-ty-0ZJ"/>
+                    <constraint firstAttribute="trailing" secondItem="4Jk-oe-7Zt" secondAttribute="trailing" constant="20" id="ENn-OU-N0v"/>
+                    <constraint firstAttribute="bottom" secondItem="4Jk-oe-7Zt" secondAttribute="bottom" constant="11" id="Fp2-ga-j6w"/>
+                    <constraint firstItem="zZF-ED-G4i" firstAttribute="leading" secondItem="vS9-NE-0JT" secondAttribute="trailing" constant="8" id="N7I-Ap-7m1"/>
+                    <constraint firstItem="Gol-aA-b6l" firstAttribute="leading" secondItem="uEb-nr-3N1" secondAttribute="trailing" constant="8" id="Qbm-lG-kMc"/>
+                    <constraint firstItem="vS9-NE-0JT" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="20" id="euG-mf-zh0"/>
+                    <constraint firstItem="Gol-aA-b6l" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="13" id="fbj-jl-1RK"/>
+                    <constraint firstItem="jw3-bv-WCT" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="40" id="iHi-ms-oTs"/>
+                    <constraint firstItem="jw3-bv-WCT" firstAttribute="top" secondItem="zZF-ED-G4i" secondAttribute="bottom" constant="6" id="iQ1-VM-kbx"/>
+                    <constraint firstItem="FxK-Ef-jDb" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="13" id="imI-LT-GQ3"/>
+                    <constraint firstItem="uEb-nr-3N1" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="13" id="onD-bE-lLs"/>
+                    <constraint firstItem="zZF-ED-G4i" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="13" id="t9N-HA-Pll"/>
+                    <constraint firstItem="jw3-bv-WCT" firstAttribute="top" secondItem="vS9-NE-0JT" secondAttribute="bottom" constant="8" id="uit-cY-A1X"/>
+                    <constraint firstAttribute="bottom" secondItem="jw3-bv-WCT" secondAttribute="bottom" constant="40" id="vEL-L5-6Cf"/>
+                    <constraint firstItem="uEb-nr-3N1" firstAttribute="leading" secondItem="FxK-Ef-jDb" secondAttribute="trailing" constant="8" id="yzQ-7N-WeZ"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="hDt-eG-VJl"/>
+            </connections>
+            <point key="canvasLocation" x="132.5" y="175.5"/>
+        </window>
+        <objectController id="58U-23-2oW">
+            <connections>
+                <binding destination="s57-8n-qIU" name="contentObject" keyPath="self" id="CTD-Sh-rgd"/>
+            </connections>
+        </objectController>
+        <customObject id="s57-8n-qIU" customClass="KZDisplaySetting">
+            <connections>
+                <outlet property="addColorWell" destination="qOr-q1-mi8" id="BvK-eJ-7c0"/>
+                <outlet property="addPanel" destination="Rjn-7c-n17" id="0ka-UQ-AyT"/>
+                <outlet property="addPresetName" destination="Bhh-De-BAO" id="66H-c8-pYu"/>
+                <outlet property="allAddColor" destination="2S6-eh-B4P" id="Jyo-8H-x6U"/>
+                <outlet property="allDelColor" destination="4Ro-AB-sAY" id="dQl-hf-Iu4"/>
+                <outlet property="allDiffColor" destination="Dht-gE-RgZ" id="e9Z-2F-PvW"/>
+                <outlet property="bAoakaMode" destination="U9G-n5-Srd" id="tdi-fz-tP3"/>
+                <outlet property="bDiffDispMode" destination="C0R-i6-Skv" id="CG2-Mn-v2e"/>
+                <outlet property="bPreset" destination="zZF-ED-G4i" id="STO-gf-gGz"/>
+                <outlet property="bSavePlace" destination="3Ke-Xm-6ah" id="nd5-6F-fBM"/>
+                <outlet property="backColorMode" destination="j0C-uU-Tqd" id="4XS-bd-b8G"/>
+                <outlet property="backColorWell" destination="0Er-F6-B1k" id="nda-4i-qzR"/>
+                <outlet property="backConsentrationLabel" destination="jwQ-65-e57" id="XSB-Bo-kwV"/>
+                <outlet property="backConsentrationSlider" destination="0iB-dA-bd6" id="rgs-uO-g8f"/>
+                <outlet property="delColorWell" destination="QUJ-9r-d79" id="rVI-HK-BwN"/>
+                <outlet property="diffColorWell" destination="B22-Wm-4rR" id="R3g-Ve-hgj"/>
+                <outlet property="fillLine" destination="6eC-fl-BOi" id="8fh-DJ-g2P"/>
+                <outlet property="folderSelect" destination="su4-NZ-tT4" id="eMT-5o-c1a"/>
+                <outlet property="folderSource" destination="ly6-Zw-WZb" id="10x-3C-tcg"/>
+                <outlet property="gapPixLabel" destination="3dh-Eh-bwJ" id="5vo-VD-Kqn"/>
+                <outlet property="gapPixSlider" destination="aJV-bB-xaQ" id="mim-Np-KXf"/>
+                <outlet property="lineThicknessEdit" destination="5iR-Yx-sok" id="n7D-en-1Uz"/>
+                <outlet property="noiseReductionLabel" destination="DcM-SQ-grS" id="sqt-IZ-LSB"/>
+                <outlet property="noiseReductionSlider" destination="vAe-KR-Svf" id="uCN-Zn-62H"/>
+                <outlet property="rasterColorMode" destination="4G3-EB-am3" id="p8f-La-q6a"/>
+                <outlet property="rasterDpiLabel" destination="Jp0-O4-3nY" id="J4S-h3-Scd"/>
+                <outlet property="rasterDpiSlider" destination="SNv-P0-LSL" id="AJS-7a-5do"/>
+                <outlet property="saveColor" destination="V3U-8l-UVV" id="paF-VS-nqr"/>
+                <outlet property="saveFormat" destination="sW9-Xp-NK0" id="GVo-h6-Zrk"/>
+                <outlet property="saveLayer" destination="5UL-1h-OB5" id="Tyx-W5-8xx"/>
+                <outlet property="saveNoChange" destination="oVB-bU-lW1" id="W6t-to-RDp"/>
+                <outlet property="setPrefix" destination="z38-hJ-B5x" id="o3r-uI-5mx"/>
+                <outlet property="setSuffix" destination="B2B-IM-N6m" id="XUL-Xc-AFE"/>
+                <outlet property="setThread" destination="fUe-mU-0KG" id="MoQ-IK-Euh"/>
+                <outlet property="threthDiffLabel" destination="ekb-25-w6O" id="lQH-5Z-6Na"/>
+                <outlet property="threthDiffSlider" destination="r5e-hC-MB8" id="LG0-hQ-vPO"/>
+            </connections>
+        </customObject>
+        <customObject id="ly6-Zw-WZb" customClass="KZFolderNameSource"/>
+        <window title="プリセットの追加" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="Rjn-7c-n17" userLabel="Save Preset Dialog" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="120" y="138" width="400" height="84"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" id="drd-pU-lYN">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GFO-Ir-k2g">
+                        <rect key="frame" x="18" y="47" width="93" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="BHf-dW-UND"/>
+                            <constraint firstAttribute="width" constant="89" id="vgT-Ri-dyw"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="プリセット名：" id="Kah-7m-iKv">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Bhh-De-BAO">
+                        <rect key="frame" x="117" y="44" width="263" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="Cj9-2s-PzB"/>
+                            <constraint firstAttribute="width" constant="263" id="Sx5-Md-5Cb"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="JSh-zw-Use">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gKg-Vd-tfy">
+                        <rect key="frame" x="304" y="8" width="82" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="2K1-Xn-QFX"/>
+                            <constraint firstAttribute="height" constant="21" id="j9b-lD-n7J"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="追加" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Wo7-31-eiF">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="addPreset:" target="s57-8n-qIU" id="0ag-YK-t03"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Bhh-De-BAO" firstAttribute="leading" secondItem="GFO-Ir-k2g" secondAttribute="trailing" constant="8" id="3OF-1l-SjV"/>
+                    <constraint firstAttribute="bottom" secondItem="gKg-Vd-tfy" secondAttribute="bottom" constant="15" id="8Dh-31-Iln"/>
+                    <constraint firstItem="GFO-Ir-k2g" firstAttribute="top" secondItem="drd-pU-lYN" secondAttribute="top" constant="20" id="E0J-7J-eV8"/>
+                    <constraint firstItem="Bhh-De-BAO" firstAttribute="top" secondItem="drd-pU-lYN" secondAttribute="top" constant="18" id="QbH-Ip-YEZ"/>
+                    <constraint firstItem="GFO-Ir-k2g" firstAttribute="leading" secondItem="drd-pU-lYN" secondAttribute="leading" constant="20" id="lFg-uo-ayb"/>
+                    <constraint firstAttribute="trailing" secondItem="gKg-Vd-tfy" secondAttribute="trailing" constant="20" id="vec-gk-iME"/>
+                </constraints>
+            </view>
+        </window>
+    </objects>
+    <resources>
+        <image name="NSActionTemplate" width="14" height="14"/>
+    </resources>
+</document>

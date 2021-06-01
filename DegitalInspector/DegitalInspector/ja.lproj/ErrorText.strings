@@ -1,0 +1,20 @@
+/* 
+  ErrorText.strings
+  DegitalInspector
+
+  Created by 内山和也 on 2019/04/08.
+  Copyright (c) 2019年 内山和也. All rights reserved.
+*/
+
+"PleaseEnterPreset" = "プリセット名を入力してください";
+"PresetNameError" = "Defaultは使用できません";
+"PresetDeleteError" = "Defaultは削除できません";
+"NotSupportFileError" = "未サポートのファイルが含まれています";
+"DifferenceSettingWarn" = "以下の設定箇所に変更がありました\n";
+
+"NotMatchDiffFileCount" = "OLDとNEWのファイル数が違います";
+"NotMatchDiffFileType" = "OLD(%@)とNEW(%@)のファイル形式が違います";
+
+"NoImg" = "エラー:以下のファイルが存在しません\n";
+"NotAdjustImg" = "エラー:以下のファイルのサイズ調整に失敗しました\n";
+"NotMatchSize" = "エラー:以下のファイルのサイズが違います\n";

@@ -1,0 +1,22 @@
+/* 
+  MainUI.strings
+  DegitalInspector
+
+  Created by 内山和也 on 2019/04/09.
+  Copyright (c) 2019年 内山和也. All rights reserved.
+*/
+
+"TabLabelBase" = "比較";
+"OpenFileDialogTitle" = "保存先を選んでください";
+"OpenFolderDialogTitle" = "フォルダを選んでください";
+"ManualSavePlaceholder" = "空欄の場合は\"書類\"フォルダに保存します";
+"AddDiffTitle" = "新規比較";
+"DelDiffTitle" = "閉じる";
+"ToolBarLogString" = "ログ";
+"ToolBarSettingString" = "設定";
+"ToolBarPresetString" = "プリセット";
+"CellProgressStringStartConvert" = "画像変換中...";
+"CellProgressStringEndConvert" = "画像変換完了";
+"CellProgressStringStartInspect" = "比較準備中...";
+"CellProgressStringFinish" = "結果保存中...";
+"HotFolderRuning" = "フォルダ監視中...";

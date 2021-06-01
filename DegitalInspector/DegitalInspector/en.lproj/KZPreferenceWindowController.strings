@@ -1,0 +1,198 @@
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "0Fj-EK-otM"; */
+"0Fj-EK-otM.title" = "Label";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2Qn-zg-1oE"; */
+"2Qn-zg-1oE.title" = "OtherViews";
+
+/* Class = "NSTabViewItem"; label = "Application"; ObjectID = "2cY-m2-ExO"; */
+"2cY-m2-ExO.label" = "Application";
+
+/* Class = "NSButtonCell"; title = "塗りつぶす"; ObjectID = "2f9-ll-JMU"; */
+"2f9-ll-JMU.title" = "塗りつぶす";
+
+/* Class = "NSTextFieldCell"; title = "dpi"; ObjectID = "3sb-kM-bea"; */
+"3sb-kM-bea.title" = "dpi";
+
+/* Class = "NSTextFieldCell"; title = "%"; ObjectID = "4HB-TY-fek"; */
+"4HB-TY-fek.title" = "%";
+
+/* Class = "NSTabViewItem"; label = "File"; ObjectID = "5Cd-L3-piv"; */
+"5Cd-L3-piv.label" = "File";
+
+/* Class = "NSButtonCell"; title = "グレー"; ObjectID = "5pC-Go-m1K"; */
+"5pC-Go-m1K.title" = "Gray";
+
+/* Class = "NSTextFieldCell"; title = "半調濃度："; ObjectID = "62b-Ud-yXf"; */
+"62b-Ud-yXf.title" = "半調濃度：";
+
+/* Class = "NSTextFieldCell"; title = "元ファイル名"; ObjectID = "6Gz-7b-KnY"; */
+"6Gz-7b-KnY.title" = "元ファイル名";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "78y-yB-l5n"; */
+"78y-yB-l5n.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "削除"; ObjectID = "7Rq-xV-sGc"; */
+"7Rq-xV-sGc.title" = "削除";
+
+/* Class = "NSTextFieldCell"; title = "360.0"; ObjectID = "80t-uv-Qmp"; */
+"80t-uv-Qmp.title" = "360.0";
+
+/* Class = "NSTabViewItem"; label = "Preview"; ObjectID = "8TF-zM-k4M"; */
+"8TF-zM-k4M.label" = "Preview";
+
+/* Class = "NSTextFieldCell"; title = "削除箇所の色："; ObjectID = "9AT-Ra-eIS"; */
+"9AT-Ra-eIS.title" = "削除箇所の色：";
+
+/* Class = "NSTextFieldCell"; title = "追加箇所の色："; ObjectID = "AeT-oZ-Tdd"; */
+"AeT-oZ-Tdd.title" = "追加箇所の色：";
+
+/* Class = "NSButtonCell"; title = "すべてこの色"; ObjectID = "DB7-lX-D9j"; */
+"DB7-lX-D9j.title" = "すべてこの色";
+
+/* Class = "NSTextFieldCell"; title = "保存設定："; ObjectID = "EZV-Yh-EG8"; */
+"EZV-Yh-EG8.title" = "保存設定：";
+
+/* Class = "NSTextFieldCell"; title = "フォルダ名："; ObjectID = "FXL-Xt-wJw"; */
+"FXL-Xt-wJw.title" = "フォルダ名：";
+
+/* Class = "NSButtonCell"; title = "カラー"; ObjectID = "Fto-01-c57"; */
+"Fto-01-c57.title" = "カラー";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "G2n-0X-1Qo"; */
+"G2n-0X-1Qo.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "HNd-g6-mHr"; */
+"HNd-g6-mHr.title" = "Label";
+
+/* Class = "NSTextFieldCell"; title = "HEADER CELL"; ObjectID = "IAp-Id-l7L"; */
+"IAp-Id-l7L.title" = "HEADER CELL";
+
+/* Class = "NSTextFieldCell"; title = "解像度："; ObjectID = "Ioy-GC-yXk"; */
+"Ioy-GC-yXk.title" = "解像度：";
+
+/* Class = "NSTextFieldCell"; title = "プリセット名："; ObjectID = "Kah-7m-iKv"; */
+"Kah-7m-iKv.title" = "プリセット名：";
+
+/* Class = "NSTabViewItem"; label = "View"; ObjectID = "Ky7-kZ-oVC"; */
+"Ky7-kZ-oVC.label" = "View";
+
+/* Class = "NSButtonCell"; title = "RGB"; ObjectID = "ODx-aC-PHO"; */
+"ODx-aC-PHO.title" = "RGB";
+
+/* Class = "NSTextFieldCell"; title = "カラーモード："; ObjectID = "OsD-WK-YxJ"; */
+"OsD-WK-YxJ.title" = "カラーモード：";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Pmg-wk-eQQ"; */
+"Pmg-wk-eQQ.title" = "Label";
+
+/* Class = "NSTextFieldCell"; title = "ファイル名："; ObjectID = "QAS-nP-wnS"; */
+"QAS-nP-wnS.title" = "ファイル名：";
+
+/* Class = "NSTextFieldCell"; title = "に下記フォルダを作成"; ObjectID = "QJB-ti-kGf"; */
+"QJB-ti-kGf.title" = "に下記フォルダを作成";
+
+/* Class = "NSTextFieldCell"; title = "半調画像色："; ObjectID = "QtU-JL-PJ4"; */
+"QtU-JL-PJ4.title" = "半調画像色：";
+
+/* Class = "NSWindow"; title = "動作設定"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "動作設定";
+
+/* Class = "NSTextFieldCell"; title = "差分の表現："; ObjectID = "RTr-CW-WMq"; */
+"RTr-CW-WMq.title" = "差分の表現：";
+
+/* Class = "NSWindow"; title = "プリセットの追加"; ObjectID = "Rjn-7c-n17"; */
+"Rjn-7c-n17.title" = "プリセットの追加";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Ryc-qI-lv4"; */
+"Ryc-qI-lv4.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "SiH-s1-DZH"; */
+"SiH-s1-DZH.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "差分箇所の色："; ObjectID = "UBv-NS-5S1"; */
+"UBv-NS-5S1.title" = "差分箇所の色：";
+
+/* Class = "NSButtonCell"; title = "追加"; ObjectID = "Wo7-31-eiF"; */
+"Wo7-31-eiF.title" = "追加";
+
+/* Class = "NSButtonCell"; title = "グレー"; ObjectID = "Xhq-VG-4cF"; */
+"Xhq-VG-4cF.title" = "グレー";
+
+/* Class = "NSButtonCell"; title = "追加"; ObjectID = "ZXE-Ht-mGQ"; */
+"ZXE-Ht-mGQ.title" = "追加";
+
+/* Class = "NSTextFieldCell"; title = "半調色："; ObjectID = "e20-b0-zJe"; */
+"e20-b0-zJe.title" = "半調色：";
+
+/* Class = "NSButtonCell"; title = "上書"; ObjectID = "gWQ-GV-SZr"; */
+"gWQ-GV-SZr.title" = "上書";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "hng-CE-82n"; */
+"hng-CE-82n.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "pix"; ObjectID = "i4y-2Z-XnP"; */
+"i4y-2Z-XnP.title" = "pix";
+
+/* Class = "NSTextFieldCell"; title = "px"; ObjectID = "j4d-mh-fUo"; */
+"j4d-mh-fUo.title" = "px";
+
+/* Class = "NSTextFieldCell"; title = "最大スレッド数："; ObjectID = "lKW-vr-mPA"; */
+"lKW-vr-mPA.title" = "最大スレッド数：";
+
+/* Class = "NSButtonCell"; title = "すべてこの色"; ObjectID = "lPi-Qf-lr4"; */
+"lPi-Qf-lr4.title" = "すべてこの色";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "m8i-Ak-eJy"; */
+"m8i-Ak-eJy.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "ノイズ除去："; ObjectID = "mDp-Gy-KiW"; */
+"mDp-Gy-KiW.title" = "ノイズ除去：";
+
+/* Class = "NSTextFieldCell"; title = "青赤表示："; ObjectID = "mLX-Mw-YaO"; */
+"mLX-Mw-YaO.title" = "青赤表示：";
+
+/* Class = "NSTextFieldCell"; title = "許容誤差："; ObjectID = "mPg-pc-91v"; */
+"mPg-pc-91v.title" = "許容誤差：";
+
+/* Class = "NSButtonCell"; title = "設定反映"; ObjectID = "mqt-op-6z1"; */
+"mqt-op-6z1.title" = "設定反映";
+
+/* Class = "NSTextFieldCell"; title = "誤差検知感度："; ObjectID = "n5f-rR-chF"; */
+"n5f-rR-chF.title" = "誤差検知感度：";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "nnO-Ip-3Fx"; */
+"nnO-Ip-3Fx.title" = "Label";
+
+/* Class = "NSButtonCell"; title = "差分無しでもファイル保存"; ObjectID = "ntA-OG-Fsn"; */
+"ntA-OG-Fsn.title" = "差分無しでもファイル保存";
+
+/* Class = "NSButtonCell"; title = "すべてこの色"; ObjectID = "p7y-Jq-1SX"; */
+"p7y-Jq-1SX.title" = "すべてこの色";
+
+/* Class = "NSTextFieldCell"; title = "プリセット："; ObjectID = "qDO-L5-Jxw"; */
+"qDO-L5-Jxw.title" = "プリセット：";
+
+/* Class = "NSTextFieldCell"; title = "罫線の太さ："; ObjectID = "qef-Rm-Bca"; */
+"qef-Rm-Bca.title" = "罫線の太さ：";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "sFL-E3-a1W"; */
+"sFL-E3-a1W.title" = "Table View Cell";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "vpg-51-uBx"; */
+"vpg-51-uBx.title" = "OtherViews";
+
+/* Class = "NSTabViewItem"; label = "Raster"; ObjectID = "wTt-Pr-js9"; */
+"wTt-Pr-js9.label" = "Raster";
+
+/* Class = "NSTabViewItem"; label = "Diff"; ObjectID = "xff-bn-QIX"; */
+"xff-bn-QIX.label" = "Diff";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "yif-bO-dps"; */
+"yif-bO-dps.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "ファイル形式："; ObjectID = "zIq-Vp-i8p"; */
+"zIq-Vp-i8p.title" = "ファイル形式：";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "zOL-tr-EZd"; */
+"zOL-tr-EZd.title" = "OtherViews";

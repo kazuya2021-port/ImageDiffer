@@ -1,0 +1,114 @@
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "0Fj-EK-otM"; */
+"0Fj-EK-otM.title" = "Label";
+
+/* Class = "NSButtonCell"; title = "塗りつぶす"; ObjectID = "0dK-w8-I5a"; */
+"0dK-w8-I5a.title" = "塗りつぶす";
+
+/* Class = "NSTabViewItem"; label = "Application"; ObjectID = "2cY-m2-ExO"; */
+"2cY-m2-ExO.label" = "Application";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "3s4-u5-Qlq"; */
+"3s4-u5-Qlq.title" = "OtherViews";
+
+/* Class = "NSTabViewItem"; label = "File"; ObjectID = "5Cd-L3-piv"; */
+"5Cd-L3-piv.label" = "File";
+
+/* Class = "NSTextFieldCell"; title = "差分の表現："; ObjectID = "5Eg-2C-0fF"; */
+"5Eg-2C-0fF.title" = "差分の表現：";
+
+/* Class = "NSTextFieldCell"; title = "罫線の太さ："; ObjectID = "67R-X9-Zw2"; */
+"67R-X9-Zw2.title" = "罫線の太さ：";
+
+/* Class = "NSTabViewItem"; label = "Preview"; ObjectID = "8TF-zM-k4M"; */
+"8TF-zM-k4M.label" = "Preview";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "GBB-gH-WSD"; */
+"GBB-gH-WSD.title" = "Label";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "HNd-g6-mHr"; */
+"HNd-g6-mHr.title" = "Label";
+
+/* Class = "NSTextFieldCell"; title = "HEADER CELL"; ObjectID = "IAp-Id-l7L"; */
+"IAp-Id-l7L.title" = "HEADER CELL";
+
+/* Class = "NSTabViewItem"; label = "View"; ObjectID = "Ky7-kZ-oVC"; */
+"Ky7-kZ-oVC.label" = "View";
+
+/* Class = "NSTextFieldCell"; title = "削除箇所の色："; ObjectID = "NYd-R5-WOe"; */
+"NYd-R5-WOe.title" = "削除箇所の色：";
+
+/* Class = "NSButtonCell"; title = "すべてこの色"; ObjectID = "OEl-BR-Sue"; */
+"OEl-BR-Sue.title" = "すべてこの色";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Pmg-wk-eQQ"; */
+"Pmg-wk-eQQ.title" = "Label";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Window";
+
+/* Class = "NSButtonCell"; title = "すべてこの色"; ObjectID = "S6e-on-tlv"; */
+"S6e-on-tlv.title" = "すべてこの色";
+
+/* Class = "NSTextFieldCell"; title = "追加箇所の色："; ObjectID = "VVe-te-EHD"; */
+"VVe-te-EHD.title" = "追加箇所の色：";
+
+/* Class = "NSButtonCell"; title = "すべてこの色"; ObjectID = "apB-OW-qN6"; */
+"apB-OW-qN6.title" = "すべてこの色";
+
+/* Class = "NSButtonCell"; title = "カラー"; ObjectID = "cOS-Mk-SxR"; */
+"cOS-Mk-SxR.title" = "カラー";
+
+/* Class = "NSTextFieldCell"; title = "px"; ObjectID = "d7j-fW-8Dm"; */
+"d7j-fW-8Dm.title" = "px";
+
+/* Class = "NSButtonCell"; title = "グレー"; ObjectID = "dAE-Kr-4Kw"; */
+"dAE-Kr-4Kw.title" = "グレー";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "eDh-zG-vrE"; */
+"eDh-zG-vrE.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "%"; ObjectID = "ex1-pm-Cub"; */
+"ex1-pm-Cub.title" = "%";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "hng-CE-82n"; */
+"hng-CE-82n.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "pix"; ObjectID = "i4y-2Z-XnP"; */
+"i4y-2Z-XnP.title" = "pix";
+
+/* Class = "NSTextFieldCell"; title = "青赤表示："; ObjectID = "kTL-JF-MYc"; */
+"kTL-JF-MYc.title" = "青赤表示：";
+
+/* Class = "NSTextFieldCell"; title = "半調画像色："; ObjectID = "m3c-aU-ia2"; */
+"m3c-aU-ia2.title" = "半調画像色：";
+
+/* Class = "NSTextFieldCell"; title = "ノイズ除去："; ObjectID = "mDp-Gy-KiW"; */
+"mDp-Gy-KiW.title" = "ノイズ除去：";
+
+/* Class = "NSTextFieldCell"; title = "許容誤差："; ObjectID = "mPg-pc-91v"; */
+"mPg-pc-91v.title" = "許容誤差：";
+
+/* Class = "NSTextFieldCell"; title = "半調色："; ObjectID = "mca-QH-R5N"; */
+"mca-QH-R5N.title" = "半調色：";
+
+/* Class = "NSTextFieldCell"; title = "半調濃度："; ObjectID = "mta-vr-bLl"; */
+"mta-vr-bLl.title" = "半調濃度：";
+
+/* Class = "NSTextFieldCell"; title = "誤差検知感度："; ObjectID = "n5f-rR-chF"; */
+"n5f-rR-chF.title" = "誤差検知感度：";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "sFL-E3-a1W"; */
+"sFL-E3-a1W.title" = "Table View Cell";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "sMm-mr-X6h"; */
+"sMm-mr-X6h.title" = "OtherViews";
+
+/* Class = "NSTabViewItem"; label = "Raster"; ObjectID = "wTt-Pr-js9"; */
+"wTt-Pr-js9.label" = "Raster";
+
+/* Class = "NSTextFieldCell"; title = "差分箇所の色："; ObjectID = "x5M-Yz-agu"; */
+"x5M-Yz-agu.title" = "差分箇所の色：";
+
+/* Class = "NSTabViewItem"; label = "Diff"; ObjectID = "xff-bn-QIX"; */
+"xff-bn-QIX.label" = "Diff";

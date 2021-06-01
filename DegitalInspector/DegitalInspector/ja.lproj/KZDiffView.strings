@@ -1,0 +1,45 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "0QY-7U-DOd"; */
+"0QY-7U-DOd.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "5UB-sU-ZG0"; */
+"5UB-sU-ZG0.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "停止"; ObjectID = "7gq-pk-WpS"; */
+"7gq-pk-WpS.title" = "停止";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "8ow-JG-XA5"; */
+"8ow-JG-XA5.title" = "Item 1";
+
+/* Class = "NSButtonCell"; title = "開始"; ObjectID = "F2j-Yc-fcA"; */
+"F2j-Yc-fcA.title" = "開始";
+
+/* Class = "NSTableColumn"; headerCell.title = "NEW"; ObjectID = "Ifc-AN-CL9"; */
+"Ifc-AN-CL9.headerCell.title" = "NEW";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "JSl-Jg-FZo"; */
+"JSl-Jg-FZo.title" = "Label";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "PHH-v3-Rmy"; */
+"PHH-v3-Rmy.title" = "Item 3";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "SCV-cN-aXu"; */
+"SCV-cN-aXu.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "OLD"; ObjectID = "jce-M7-3ZA"; */
+"jce-M7-3ZA.headerCell.title" = "OLD";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "njY-y8-H1T"; */
+"njY-y8-H1T.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "qnA-Cq-dZ6"; */
+"qnA-Cq-dZ6.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "保存場所："; ObjectID = "rQK-Mn-Tf4"; */
+"rQK-Mn-Tf4.title" = "保存場所：";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "s86-qG-LYp"; */
+"s86-qG-LYp.title" = "Table View Cell";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "xdQ-gt-bTQ"; */
+"xdQ-gt-bTQ.title" = "...";
