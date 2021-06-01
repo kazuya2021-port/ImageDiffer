@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B18D1CE22B3578A00201197 /* XMPTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B18D1CD22B3578A00201197 /* XMPTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B18D1D422B3578B00201197 /* XMPTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B18D1C822B3578A00201197 /* XMPTool.framework */; };
+		2B18D1DB22B3578B00201197 /* XMPToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B18D1DA22B3578B00201197 /* XMPToolTests.m */; };
+		2B18D1F022B357CB00201197 /* libXMPFilesStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B18D1EE22B357CB00201197 /* libXMPFilesStatic.a */; };
+		2B18D1F122B357CB00201197 /* libXMPCoreStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B18D1EF22B357CB00201197 /* libXMPCoreStatic.a */; };
+		2B18D1F722B3593500201197 /* XMPTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B18D1F622B3593500201197 /* XMPTool.mm */; };
+		2B18D1F922B35A0700201197 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B18D1F822B35A0700201197 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B18D1D522B3578B00201197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B18D1BF22B3578A00201197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B18D1C722B3578A00201197;
+			remoteInfo = XMPTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B18D1C822B3578A00201197 /* XMPTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMPTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B18D1CC22B3578A00201197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B18D1CD22B3578A00201197 /* XMPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPTool.h; sourceTree = "<group>"; };
+		2B18D1D322B3578B00201197 /* XMPToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B18D1D922B3578B00201197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B18D1DA22B3578B00201197 /* XMPToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPToolTests.m; sourceTree = "<group>"; };
+		2B18D1EE22B357CB00201197 /* libXMPFilesStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXMPFilesStatic.a; path = ../../Libs/lib/libXMPFilesStatic.a; sourceTree = "<group>"; };
+		2B18D1EF22B357CB00201197 /* libXMPCoreStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXMPCoreStatic.a; path = ../../Libs/lib/libXMPCoreStatic.a; sourceTree = "<group>"; };
+		2B18D1F622B3593500201197 /* XMPTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XMPTool.mm; sourceTree = "<group>"; };
+		2B18D1F822B35A0700201197 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B18D1C422B3578A00201197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B18D1F922B35A0700201197 /* Cocoa.framework in Frameworks */,
+				2B18D1F022B357CB00201197 /* libXMPFilesStatic.a in Frameworks */,
+				2B18D1F122B357CB00201197 /* libXMPCoreStatic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B18D1D022B3578B00201197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B18D1D422B3578B00201197 /* XMPTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B18D1BE22B3578A00201197 = {
+			isa = PBXGroup;
+			children = (
+				2B18D1F822B35A0700201197 /* Cocoa.framework */,
+				2B18D1EE22B357CB00201197 /* libXMPFilesStatic.a */,
+				2B18D1EF22B357CB00201197 /* libXMPCoreStatic.a */,
+				2B18D1CA22B3578A00201197 /* XMPTool */,
+				2B18D1D722B3578B00201197 /* XMPToolTests */,
+				2B18D1C922B3578A00201197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B18D1C922B3578A00201197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B18D1C822B3578A00201197 /* XMPTool.framework */,
+				2B18D1D322B3578B00201197 /* XMPToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B18D1CA22B3578A00201197 /* XMPTool */ = {
+			isa = PBXGroup;
+			children = (
+				2B18D1CD22B3578A00201197 /* XMPTool.h */,
+				2B18D1F622B3593500201197 /* XMPTool.mm */,
+				2B18D1CB22B3578A00201197 /* Supporting Files */,
+			);
+			path = XMPTool;
+			sourceTree = "<group>";
+		};
+		2B18D1CB22B3578A00201197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B18D1CC22B3578A00201197 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B18D1D722B3578B00201197 /* XMPToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B18D1DA22B3578B00201197 /* XMPToolTests.m */,
+				2B18D1D822B3578B00201197 /* Supporting Files */,
+			);
+			path = XMPToolTests;
+			sourceTree = "<group>";
+		};
+		2B18D1D822B3578B00201197 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B18D1D922B3578B00201197 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B18D1C522B3578A00201197 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B18D1CE22B3578A00201197 /* XMPTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B18D1C722B3578A00201197 /* XMPTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B18D1DE22B3578B00201197 /* Build configuration list for PBXNativeTarget "XMPTool" */;
+			buildPhases = (
+				2B18D1C322B3578A00201197 /* Sources */,
+				2B18D1C422B3578A00201197 /* Frameworks */,
+				2B18D1C522B3578A00201197 /* Headers */,
+				2B18D1C622B3578A00201197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPTool;
+			productName = XMPTool;
+			productReference = 2B18D1C822B3578A00201197 /* XMPTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B18D1D222B3578B00201197 /* XMPToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B18D1E122B3578B00201197 /* Build configuration list for PBXNativeTarget "XMPToolTests" */;
+			buildPhases = (
+				2B18D1CF22B3578B00201197 /* Sources */,
+				2B18D1D022B3578B00201197 /* Frameworks */,
+				2B18D1D122B3578B00201197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B18D1D622B3578B00201197 /* PBXTargetDependency */,
+			);
+			name = XMPToolTests;
+			productName = XMPToolTests;
+			productReference = 2B18D1D322B3578B00201197 /* XMPToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B18D1BF22B3578A00201197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "内山和也";
+				TargetAttributes = {
+					2B18D1C722B3578A00201197 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2B18D1D222B3578B00201197 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 2B18D1C222B3578A00201197 /* Build configuration list for PBXProject "XMPTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B18D1BE22B3578A00201197;
+			productRefGroup = 2B18D1C922B3578A00201197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B18D1C722B3578A00201197 /* XMPTool */,
+				2B18D1D222B3578B00201197 /* XMPToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B18D1C622B3578A00201197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B18D1D122B3578B00201197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B18D1C322B3578A00201197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B18D1F722B3593500201197 /* XMPTool.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B18D1CF22B3578B00201197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B18D1DB22B3578B00201197 /* XMPToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B18D1D622B3578B00201197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B18D1C722B3578A00201197 /* XMPTool */;
+			targetProxy = 2B18D1D522B3578B00201197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B18D1DC22B3578B00201197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.10;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B18D1DD22B3578B00201197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.10;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B18D1DF22B3578B00201197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"MAC_ENV=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../../Libs/include\"",
+				);
+				INFOPLIST_FILE = XMPTool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Libs/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B18D1E022B3578B00201197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = "MAC_ENV=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../../Libs/include\"",
+				);
+				INFOPLIST_FILE = XMPTool/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Libs/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2B18D1E222B3578B00201197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XMPToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B18D1E322B3578B00201197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XMPToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B18D1C222B3578A00201197 /* Build configuration list for PBXProject "XMPTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B18D1DC22B3578B00201197 /* Debug */,
+				2B18D1DD22B3578B00201197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B18D1DE22B3578B00201197 /* Build configuration list for PBXNativeTarget "XMPTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B18D1DF22B3578B00201197 /* Debug */,
+				2B18D1E022B3578B00201197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B18D1E122B3578B00201197 /* Build configuration list for PBXNativeTarget "XMPToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B18D1E222B3578B00201197 /* Debug */,
+				2B18D1E322B3578B00201197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B18D1BF22B3578A00201197 /* Project object */;
+}

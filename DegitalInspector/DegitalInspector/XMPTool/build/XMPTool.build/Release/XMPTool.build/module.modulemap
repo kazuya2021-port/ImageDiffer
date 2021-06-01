@@ -1,0 +1,6 @@
+framework module XMPTool {
+  umbrella header "XMPTool.h"
+
+  export *
+  module * { export * }
+}

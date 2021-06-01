@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/uchiyama_macmini/Documents/ImageDiffer/DegitalInspector/XMPTool/build/Debug/XMPTool.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "XMPTool-Swift.h",
+          'external-contents': "/Users/uchiyama_macmini/Documents/ImageDiffer/DegitalInspector/XMPTool/build/Debug/XMPTool.framework/Versions/A/Headers/XMPTool-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "XMPTool.h",
+          'external-contents': "/Users/uchiyama_macmini/Documents/ImageDiffer/DegitalInspector/XMPTool/XMPTool/XMPTool.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/uchiyama_macmini/Documents/ImageDiffer/DegitalInspector/XMPTool/build/Debug/XMPTool.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/uchiyama_macmini/Documents/ImageDiffer/DegitalInspector/XMPTool/build/XMPTool.build/Debug/XMPTool.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
