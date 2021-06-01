@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82DCE94C230A1CDA00A1154C /* psd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82DCE94A230A1CDA00A1154C /* psd.cpp */; };
+		82DCE94D230A1CDA00A1154C /* psd.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 82DCE94B230A1CDA00A1154C /* psd.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		82DCE965230A2EAA00A1154C /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 82DCE964230A2EAA00A1154C /* PrefixHeader.pch */; };
+		82DCE969230A457A00A1154C /* psd_types.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 82DCE966230A457A00A1154C /* psd_types.hpp */; };
+		82DCE96A230A457A00A1154C /* psd_file_struct.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 82DCE967230A457A00A1154C /* psd_file_struct.hpp */; };
+		82DCE96B230A457A00A1154C /* psd_util.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 82DCE968230A457A00A1154C /* psd_util.hpp */; };
+		82DCE96D230A469300A1154C /* psd_def.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DCE96C230A469300A1154C /* psd_def.h */; };
+		82E69B7C231DFE2100B9F98D /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E69B7B231DFE2100B9F98D /* libz.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		827B6B072418F63700A8603A /* libtrle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtrle.a; path = ../../Libs/lib/libtrle.a; sourceTree = "<group>"; };
+		827B6B092418F6DD00A8603A /* trled.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = trled.o; path = ../../Libs/lib/trled.o; sourceTree = "<group>"; };
+		827B6B0A2418F6DD00A8603A /* trle.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = trle.o; path = ../../Libs/lib/trle.o; sourceTree = "<group>"; };
+		827B6B0B2418F6DD00A8603A /* trlec.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = trlec.o; path = ../../Libs/lib/trlec.o; sourceTree = "<group>"; };
+		82DCE93D230A1CC600A1154C /* libKZMagick.dylib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKZMagick.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DCE94A230A1CDA00A1154C /* psd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = psd.cpp; sourceTree = "<group>"; };
+		82DCE94B230A1CDA00A1154C /* psd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = psd.hpp; sourceTree = "<group>"; };
+		82DCE964230A2EAA00A1154C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		82DCE966230A457A00A1154C /* psd_types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = psd_types.hpp; sourceTree = "<group>"; };
+		82DCE967230A457A00A1154C /* psd_file_struct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = psd_file_struct.hpp; sourceTree = "<group>"; };
+		82DCE968230A457A00A1154C /* psd_util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = psd_util.hpp; sourceTree = "<group>"; };
+		82DCE96C230A469300A1154C /* psd_def.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = psd_def.h; sourceTree = "<group>"; };
+		82E69B7B231DFE2100B9F98D /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = "../../../../Downloads/paintlib-2.6.2/zlib113/libz.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DCE93A230A1CC600A1154C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E69B7C231DFE2100B9F98D /* libz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82DCE934230A1CC600A1154C = {
+			isa = PBXGroup;
+			children = (
+				82DCE96C230A469300A1154C /* psd_def.h */,
+				82DCE964230A2EAA00A1154C /* PrefixHeader.pch */,
+				82DCE94A230A1CDA00A1154C /* psd.cpp */,
+				82DCE94B230A1CDA00A1154C /* psd.hpp */,
+				82DCE967230A457A00A1154C /* psd_file_struct.hpp */,
+				82DCE966230A457A00A1154C /* psd_types.hpp */,
+				82DCE968230A457A00A1154C /* psd_util.hpp */,
+				82DCE93E230A1CC600A1154C /* Products */,
+				82E69B7A231DFE2100B9F98D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82DCE93E230A1CC600A1154C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DCE93D230A1CC600A1154C /* libKZMagick.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E69B7A231DFE2100B9F98D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				827B6B0A2418F6DD00A8603A /* trle.o */,
+				827B6B0B2418F6DD00A8603A /* trlec.o */,
+				827B6B092418F6DD00A8603A /* trled.o */,
+				827B6B072418F63700A8603A /* libtrle.a */,
+				82E69B7B231DFE2100B9F98D /* libz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82DCE93B230A1CC600A1154C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DCE94D230A1CDA00A1154C /* psd.hpp in Headers */,
+				82DCE96B230A457A00A1154C /* psd_util.hpp in Headers */,
+				82DCE96D230A469300A1154C /* psd_def.h in Headers */,
+				82DCE969230A457A00A1154C /* psd_types.hpp in Headers */,
+				82DCE965230A2EAA00A1154C /* PrefixHeader.pch in Headers */,
+				82DCE96A230A457A00A1154C /* psd_file_struct.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82DCE93C230A1CC600A1154C /* KZMagick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DCE941230A1CC600A1154C /* Build configuration list for PBXNativeTarget "KZMagick" */;
+			buildPhases = (
+				82DCE939230A1CC600A1154C /* Sources */,
+				82DCE93A230A1CC600A1154C /* Frameworks */,
+				82DCE93B230A1CC600A1154C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZMagick;
+			productName = KZMagick;
+			productReference = 82DCE93D230A1CC600A1154C /* libKZMagick.dylib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DCE935230A1CC600A1154C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = uchiyama_Macmini;
+				TargetAttributes = {
+					82DCE93C230A1CC600A1154C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 82DCE938230A1CC600A1154C /* Build configuration list for PBXProject "KZMagick" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82DCE934230A1CC600A1154C;
+			productRefGroup = 82DCE93E230A1CC600A1154C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DCE93C230A1CC600A1154C /* KZMagick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DCE939230A1CC600A1154C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DCE94C230A1CDA00A1154C /* psd.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82DCE93F230A1CC600A1154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.10;
+			};
+			name = Debug;
+		};
+		82DCE940230A1CC600A1154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.10;
+			};
+			name = Release;
+		};
+		82DCE942230A1CC600A1154C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				DYLIB_INSTALL_NAME_BASE = "$(INSTALL_PATH)";
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/ImageDiffer/KZImage/KZMagick/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"/Volumes/DataBackUp/99_Tool_最新/ImageDiffer/Libs/include\"";
+				INSTALL_PATH = "@rpath";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"/Volumes/DataBackUp/99_Tool_最新/ImageDiffer/Libs/lib\"";
+				MACH_O_TYPE = mh_dylib;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)-pthread";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82DCE943230A1CC600A1154C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 247S3F628J;
+				DYLIB_INSTALL_NAME_BASE = "$(INSTALL_PATH)";
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/ImageDiffer/KZImage/KZMagick/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"/Volumes/DataBackUp/99_Tool_最新/ImageDiffer/Libs/include\"";
+				INSTALL_PATH = "@rpath";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"/Volumes/DataBackUp/99_Tool_最新/ImageDiffer/Libs/lib\"";
+				MACH_O_TYPE = mh_dylib;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)-pthread";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DCE938230A1CC600A1154C /* Build configuration list for PBXProject "KZMagick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DCE93F230A1CC600A1154C /* Debug */,
+				82DCE940230A1CC600A1154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DCE941230A1CC600A1154C /* Build configuration list for PBXNativeTarget "KZMagick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DCE942230A1CC600A1154C /* Debug */,
+				82DCE943230A1CC600A1154C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82DCE935230A1CC600A1154C /* Project object */;
+}
