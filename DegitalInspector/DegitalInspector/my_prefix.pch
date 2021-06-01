@@ -1,0 +1,27 @@
+//
+//  my_prefix.pch
+//  DegitalInspector
+//
+//  Created by 内山和也 on 2019/04/19.
+//  Copyright (c) 2019年 内山和也. All rights reserved.
+//
+
+#ifndef DegitalInspector_my_prefix_pch
+#define DegitalInspector_my_prefix_pch
+
+#include <KZImage/ImageEnum.h>
+#include <KZImage/KZImage.h>
+
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#import <KZLibs.h>
+#import "KZSetting.h"
+#import "KZHotFolderController.h"
+#import "NSNotificationCenter+Utils.h"
+#import "NSInvocation+Utils.h"
+
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
