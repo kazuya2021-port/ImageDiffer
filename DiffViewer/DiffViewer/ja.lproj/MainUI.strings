@@ -1,0 +1,11 @@
+/* 
+  MainUI.strings
+  DiffViewer
+
+  Created by uchiyama_Macmini on 2019/08/01.
+  Copyright © 2019年 uchiyama_Macmini. All rights reserved.
+*/
+"ToolBarOpenString" = "開く";
+"ToolBarSettingString" = "設定";
+"ToolBarSingleString" = "単一";
+"ToolBarDoubleString" = "分割";

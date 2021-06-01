@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823DDCC522F99C1600F3FE72 /* KZImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823DDCC422F99C1600F3FE72 /* KZImage.framework */; };
+		823DDCC622F99C1600F3FE72 /* KZImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 823DDCC422F99C1600F3FE72 /* KZImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		824FA64722F1B4FA00856A94 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 824FA64622F1B4FA00856A94 /* AppDelegate.mm */; };
+		824FA64922F1B4FA00856A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824FA64822F1B4FA00856A94 /* Assets.xcassets */; };
+		824FA64C22F1B4FA00856A94 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 824FA64A22F1B4FA00856A94 /* MainMenu.xib */; };
+		824FA64F22F1B4FA00856A94 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 824FA64E22F1B4FA00856A94 /* main.mm */; };
+		824FA66622F1B70100856A94 /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824FA66522F1B70100856A94 /* PSMTabBarControl.framework */; };
+		824FA66722F1B70600856A94 /* PSMTabBarControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 824FA66522F1B70100856A94 /* PSMTabBarControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		824FA66B22F1B79300856A94 /* DVTabViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 824FA66A22F1B79300856A94 /* DVTabViewController.mm */; };
+		824FA66D22F1BA2200856A94 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824FA66C22F1B9EF00856A94 /* Cocoa.framework */; };
+		824FA67722F1C0A500856A94 /* OpenedFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 824FA67622F1C0A500856A94 /* OpenedFile.mm */; };
+		82AF1AC522F264FB00E7CCA8 /* DVToolBarController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82AF1AC422F264FB00E7CCA8 /* DVToolBarController.mm */; };
+		82AF1ACA22F2661700E7CCA8 /* DVSettingWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82AF1AC822F2661700E7CCA8 /* DVSettingWindow.mm */; };
+		82AF1ACD22F2676600E7CCA8 /* KZLibs.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF1ACC22F2676600E7CCA8 /* KZLibs.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		82AF1ACF22F2677C00E7CCA8 /* KZLibs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF1ACE22F2677C00E7CCA8 /* KZLibs.dylib */; };
+		82AF1AD122F268A200E7CCA8 /* DVSettingWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AF1AD322F268A200E7CCA8 /* DVSettingWindow.xib */; };
+		82AF1ADA22F268C100E7CCA8 /* MainUI.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AF1ADC22F268C100E7CCA8 /* MainUI.strings */; };
+		82AF1AE222F26CD000E7CCA8 /* XMPTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF1AE122F26CCF00E7CCA8 /* XMPTool.framework */; };
+		82AF1AE322F26CD000E7CCA8 /* XMPTool.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF1AE122F26CCF00E7CCA8 /* XMPTool.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		82AF1AE622F26CF700E7CCA8 /* NSDataExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82AF1AE522F26CF700E7CCA8 /* NSDataExt.mm */; };
+		82AF1AF122F2753E00E7CCA8 /* DVSingleView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82AF1AEF22F2753E00E7CCA8 /* DVSingleView.mm */; };
+		82AF1AF822F2757400E7CCA8 /* DVSingleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AF1AFA22F2757400E7CCA8 /* DVSingleView.xib */; };
+		82AF1B0822F2867500E7CCA8 /* Error.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AF1B0A22F2867500E7CCA8 /* Error.strings */; };
+		82AF1B0E22F29E3700E7CCA8 /* DVWholeImageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82AF1B0D22F29E3700E7CCA8 /* DVWholeImageView.mm */; };
+		82AF1B1122F2A5A000E7CCA8 /* NSImageViewExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82AF1B1022F2A5A000E7CCA8 /* NSImageViewExt.mm */; };
+		82C1599D22F2CC8300E8745F /* libopencv_world.3.4.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82C1599C22F2CC8300E8745F /* libopencv_world.3.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		82C1599E22F2CE6300E8745F /* libopencv_world.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C1599C22F2CC8300E8745F /* libopencv_world.3.4.dylib */; };
+		82EC5B5122F3C05F00628B97 /* NSBezierPathExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82EC5B5022F3C05F00628B97 /* NSBezierPathExt.mm */; };
+		82EC5B5322F3C0D500628B97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EC5B5222F3C0C900628B97 /* QuartzCore.framework */; };
+		82EC5B5922F3DC1E00628B97 /* DVShapeLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82EC5B5822F3DC1E00628B97 /* DVShapeLayer.mm */; };
+		82EC5B5C22F4071D00628B97 /* DVArrayController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82EC5B5B22F4071D00628B97 /* DVArrayController.mm */; };
+		82EC5B5F22F4398600628B97 /* DVChangeSingle.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82EC5B5E22F4398600628B97 /* DVChangeSingle.mm */; };
+		82EC5B6222F4399A00628B97 /* DVChangeDouble.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82EC5B6122F4399A00628B97 /* DVChangeDouble.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		824FA66322F1B5E000856A94 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				823DDCC622F99C1600F3FE72 /* KZImage.framework in Embed Frameworks */,
+				82AF1AE322F26CD000E7CCA8 /* XMPTool.framework in Embed Frameworks */,
+				82C1599D22F2CC8300E8745F /* libopencv_world.3.4.dylib in Embed Frameworks */,
+				824FA66722F1B70600856A94 /* PSMTabBarControl.framework in Embed Frameworks */,
+				82AF1ACD22F2676600E7CCA8 /* KZLibs.dylib in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		823DDCC422F99C1600F3FE72 /* KZImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZImage.framework; path = ../KZImage/build/Debug/KZImage.framework; sourceTree = "<group>"; };
+		824FA64222F1B4FA00856A94 /* DiffViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		824FA64522F1B4FA00856A94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		824FA64622F1B4FA00856A94 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		824FA64822F1B4FA00856A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		824FA64B22F1B4FA00856A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		824FA64D22F1B4FA00856A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		824FA64E22F1B4FA00856A94 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		824FA65022F1B4FA00856A94 /* DiffViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiffViewer.entitlements; sourceTree = "<group>"; };
+		824FA65622F1B51000856A94 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		824FA66522F1B70100856A94 /* PSMTabBarControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSMTabBarControl.framework; path = ../Framework/10.9/PSMTabBarControl.framework; sourceTree = "<group>"; };
+		824FA66922F1B79300856A94 /* DVTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVTabViewController.h; path = DiffViewer/DVTabViewController.h; sourceTree = "<group>"; };
+		824FA66A22F1B79300856A94 /* DVTabViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DVTabViewController.mm; path = DiffViewer/DVTabViewController.mm; sourceTree = "<group>"; };
+		824FA66C22F1B9EF00856A94 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		824FA66F22F1BAC600856A94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		824FA67322F1BBF900856A94 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+		824FA67522F1C0A500856A94 /* OpenedFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenedFile.h; path = DiffViewer/OpenedFile.h; sourceTree = "<group>"; };
+		824FA67622F1C0A500856A94 /* OpenedFile.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenedFile.mm; path = DiffViewer/OpenedFile.mm; sourceTree = "<group>"; };
+		82AF1AC322F264FB00E7CCA8 /* DVToolBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVToolBarController.h; path = DiffViewer/DVToolBarController.h; sourceTree = "<group>"; };
+		82AF1AC422F264FB00E7CCA8 /* DVToolBarController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DVToolBarController.mm; path = DiffViewer/DVToolBarController.mm; sourceTree = "<group>"; };
+		82AF1AC722F2661700E7CCA8 /* DVSettingWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVSettingWindow.h; path = DiffViewer/DVSettingWindow.h; sourceTree = "<group>"; };
+		82AF1AC822F2661700E7CCA8 /* DVSettingWindow.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DVSettingWindow.mm; path = DiffViewer/DVSettingWindow.mm; sourceTree = "<group>"; };
+		82AF1ACC22F2676600E7CCA8 /* KZLibs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = KZLibs.dylib; sourceTree = "<group>"; };
+		82AF1ACE22F2677C00E7CCA8 /* KZLibs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = KZLibs.dylib; path = ../../KZLibs/Build/Release/KZLibs.dylib; sourceTree = "<group>"; };
+		82AF1AD022F267BE00E7CCA8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		82AF1AD222F268A200E7CCA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DVSettingWindow.xib; sourceTree = "<group>"; };
+		82AF1AD522F268A400E7CCA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DVSettingWindow.strings; sourceTree = "<group>"; };
+		82AF1AD722F268A500E7CCA8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/DVSettingWindow.strings; sourceTree = "<group>"; };
+		82AF1ADB22F268C100E7CCA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainUI.strings; sourceTree = "<group>"; };
+		82AF1ADD22F268C200E7CCA8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainUI.strings; sourceTree = "<group>"; };
+		82AF1AE122F26CCF00E7CCA8 /* XMPTool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMPTool.framework; path = ../DegitalInspector/XMPTool/build/Debug/XMPTool.framework; sourceTree = "<group>"; };
+		82AF1AE422F26CF700E7CCA8 /* NSDataExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSDataExt.h; path = DiffViewer/NSDataExt.h; sourceTree = "<group>"; };
+		82AF1AE522F26CF700E7CCA8 /* NSDataExt.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NSDataExt.mm; path = DiffViewer/NSDataExt.mm; sourceTree = "<group>"; };
+		82AF1AEE22F2753E00E7CCA8 /* DVSingleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVSingleView.h; path = DiffViewer/DVSingleView.h; sourceTree = "<group>"; };
+		82AF1AEF22F2753E00E7CCA8 /* DVSingleView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DVSingleView.mm; path = DiffViewer/DVSingleView.mm; sourceTree = "<group>"; };
+		82AF1AF922F2757400E7CCA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = DiffViewer/Base.lproj/DVSingleView.xib; sourceTree = "<group>"; };
+		82AF1AFC22F2757600E7CCA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = DiffViewer/en.lproj/DVSingleView.strings; sourceTree = "<group>"; };
+		82AF1AFE22F2757700E7CCA8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = DiffViewer/ja.lproj/DVSingleView.strings; sourceTree = "<group>"; };
+		82AF1B0922F2867500E7CCA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Error.strings; sourceTree = "<group>"; };
+		82AF1B0B22F2867600E7CCA8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Error.strings; sourceTree = "<group>"; };
+		82AF1B0C22F29E3700E7CCA8 /* DVWholeImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVWholeImageView.h; path = DiffViewer/DVWholeImageView.h; sourceTree = "<group>"; };
+		82AF1B0D22F29E3700E7CCA8 /* DVWholeImageView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DVWholeImageView.mm; path = DiffViewer/DVWholeImageView.mm; sourceTree = "<group>"; };
+		82AF1B0F22F2A5A000E7CCA8 /* NSImageViewExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSImageViewExt.h; path = DiffViewer/NSImageViewExt.h; sourceTree = "<group>"; };
+		82AF1B1022F2A5A000E7CCA8 /* NSImageViewExt.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NSImageViewExt.mm; path = DiffViewer/NSImageViewExt.mm; sourceTree = "<group>"; };
+		82C1599C22F2CC8300E8745F /* libopencv_world.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_world.3.4.dylib; path = ../Libs/lib/libopencv_world.3.4.dylib; sourceTree = "<group>"; };
+		82EC5B4F22F3C05F00628B97 /* NSBezierPathExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NSBezierPathExt.h; path = DiffViewer/NSBezierPathExt.h; sourceTree = "<group>"; };
+		82EC5B5022F3C05F00628B97 /* NSBezierPathExt.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = NSBezierPathExt.mm; path = DiffViewer/NSBezierPathExt.mm; sourceTree = "<group>"; };
+		82EC5B5222F3C0C900628B97 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		82EC5B5722F3DC1E00628B97 /* DVShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVShapeLayer.h; path = DiffViewer/DVShapeLayer.h; sourceTree = "<group>"; };
+		82EC5B5822F3DC1E00628B97 /* DVShapeLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DVShapeLayer.mm; path = DiffViewer/DVShapeLayer.mm; sourceTree = "<group>"; };
+		82EC5B5A22F4071D00628B97 /* DVArrayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVArrayController.h; path = DiffViewer/DVArrayController.h; sourceTree = "<group>"; };
+		82EC5B5B22F4071D00628B97 /* DVArrayController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DVArrayController.mm; path = DiffViewer/DVArrayController.mm; sourceTree = "<group>"; };
+		82EC5B5D22F4398600628B97 /* DVChangeSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVChangeSingle.h; path = DiffViewer/DVChangeSingle.h; sourceTree = "<group>"; };
+		82EC5B5E22F4398600628B97 /* DVChangeSingle.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DVChangeSingle.mm; path = DiffViewer/DVChangeSingle.mm; sourceTree = "<group>"; };
+		82EC5B6022F4399A00628B97 /* DVChangeDouble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVChangeDouble.h; path = DiffViewer/DVChangeDouble.h; sourceTree = "<group>"; };
+		82EC5B6122F4399A00628B97 /* DVChangeDouble.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = DVChangeDouble.mm; path = DiffViewer/DVChangeDouble.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		824FA63F22F1B4FA00856A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823DDCC522F99C1600F3FE72 /* KZImage.framework in Frameworks */,
+				82EC5B5322F3C0D500628B97 /* QuartzCore.framework in Frameworks */,
+				82C1599E22F2CE6300E8745F /* libopencv_world.3.4.dylib in Frameworks */,
+				82AF1AE222F26CD000E7CCA8 /* XMPTool.framework in Frameworks */,
+				82AF1ACF22F2677C00E7CCA8 /* KZLibs.dylib in Frameworks */,
+				824FA66D22F1BA2200856A94 /* Cocoa.framework in Frameworks */,
+				824FA66622F1B70100856A94 /* PSMTabBarControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		824FA63922F1B4FA00856A94 = {
+			isa = PBXGroup;
+			children = (
+				823DDCC422F99C1600F3FE72 /* KZImage.framework */,
+				82C1599C22F2CC8300E8745F /* libopencv_world.3.4.dylib */,
+				82AF1AE122F26CCF00E7CCA8 /* XMPTool.framework */,
+				82AF1ACC22F2676600E7CCA8 /* KZLibs.dylib */,
+				824FA67422F1C08D00856A94 /* Model */,
+				824FA66822F1B77400856A94 /* Controller */,
+				824FA65822F1B55900856A94 /* Frameworks */,
+				824FA65722F1B51C00856A94 /* Resource */,
+				824FA64422F1B4FA00856A94 /* DiffViewer */,
+				824FA64322F1B4FA00856A94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		824FA64322F1B4FA00856A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				824FA64222F1B4FA00856A94 /* DiffViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824FA64422F1B4FA00856A94 /* DiffViewer */ = {
+			isa = PBXGroup;
+			children = (
+				824FA64522F1B4FA00856A94 /* AppDelegate.h */,
+				824FA64622F1B4FA00856A94 /* AppDelegate.mm */,
+				824FA64822F1B4FA00856A94 /* Assets.xcassets */,
+				824FA64A22F1B4FA00856A94 /* MainMenu.xib */,
+				824FA64D22F1B4FA00856A94 /* Info.plist */,
+				824FA64E22F1B4FA00856A94 /* main.mm */,
+				824FA65022F1B4FA00856A94 /* DiffViewer.entitlements */,
+				82AF1AD022F267BE00E7CCA8 /* PrefixHeader.pch */,
+				82AF1ADC22F268C100E7CCA8 /* MainUI.strings */,
+				82AF1B0A22F2867500E7CCA8 /* Error.strings */,
+			);
+			path = DiffViewer;
+			sourceTree = "<group>";
+		};
+		824FA65722F1B51C00856A94 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				82AF1AC622F265F600E7CCA8 /* Setting */,
+				82AF1AC222F264C100E7CCA8 /* DiffView */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		824FA65822F1B55900856A94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82EC5B5222F3C0C900628B97 /* QuartzCore.framework */,
+				82AF1ACE22F2677C00E7CCA8 /* KZLibs.dylib */,
+				824FA67322F1BBF900856A94 /* Carbon.framework */,
+				824FA66C22F1B9EF00856A94 /* Cocoa.framework */,
+				824FA66522F1B70100856A94 /* PSMTabBarControl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		824FA66822F1B77400856A94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				824FA66922F1B79300856A94 /* DVTabViewController.h */,
+				824FA66A22F1B79300856A94 /* DVTabViewController.mm */,
+				82AF1AC322F264FB00E7CCA8 /* DVToolBarController.h */,
+				82AF1AC422F264FB00E7CCA8 /* DVToolBarController.mm */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		824FA67422F1C08D00856A94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82AF1AE422F26CF700E7CCA8 /* NSDataExt.h */,
+				82AF1AE522F26CF700E7CCA8 /* NSDataExt.mm */,
+				824FA67522F1C0A500856A94 /* OpenedFile.h */,
+				824FA67622F1C0A500856A94 /* OpenedFile.mm */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		82AF1AC222F264C100E7CCA8 /* DiffView */ = {
+			isa = PBXGroup;
+			children = (
+				82AF1AEE22F2753E00E7CCA8 /* DVSingleView.h */,
+				82AF1AEF22F2753E00E7CCA8 /* DVSingleView.mm */,
+				82AF1AFA22F2757400E7CCA8 /* DVSingleView.xib */,
+				82AF1B0C22F29E3700E7CCA8 /* DVWholeImageView.h */,
+				82AF1B0D22F29E3700E7CCA8 /* DVWholeImageView.mm */,
+				82AF1B0F22F2A5A000E7CCA8 /* NSImageViewExt.h */,
+				82AF1B1022F2A5A000E7CCA8 /* NSImageViewExt.mm */,
+				82EC5B4F22F3C05F00628B97 /* NSBezierPathExt.h */,
+				82EC5B5022F3C05F00628B97 /* NSBezierPathExt.mm */,
+				82EC5B5722F3DC1E00628B97 /* DVShapeLayer.h */,
+				82EC5B5822F3DC1E00628B97 /* DVShapeLayer.mm */,
+				82EC5B5A22F4071D00628B97 /* DVArrayController.h */,
+				82EC5B5B22F4071D00628B97 /* DVArrayController.mm */,
+				82EC5B5D22F4398600628B97 /* DVChangeSingle.h */,
+				82EC5B5E22F4398600628B97 /* DVChangeSingle.mm */,
+				82EC5B6022F4399A00628B97 /* DVChangeDouble.h */,
+				82EC5B6122F4399A00628B97 /* DVChangeDouble.mm */,
+			);
+			name = DiffView;
+			sourceTree = "<group>";
+		};
+		82AF1AC622F265F600E7CCA8 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				82AF1AC722F2661700E7CCA8 /* DVSettingWindow.h */,
+				82AF1AC822F2661700E7CCA8 /* DVSettingWindow.mm */,
+				82AF1AD322F268A200E7CCA8 /* DVSettingWindow.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		824FA64122F1B4FA00856A94 /* DiffViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824FA65322F1B4FA00856A94 /* Build configuration list for PBXNativeTarget "DiffViewer" */;
+			buildPhases = (
+				824FA63E22F1B4FA00856A94 /* Sources */,
+				824FA63F22F1B4FA00856A94 /* Frameworks */,
+				824FA64022F1B4FA00856A94 /* Resources */,
+				824FA66322F1B5E000856A94 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiffViewer;
+			productName = DiffViewer;
+			productReference = 824FA64222F1B4FA00856A94 /* DiffViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		824FA63A22F1B4FA00856A94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = uchiyama_Macmini;
+				TargetAttributes = {
+					824FA64122F1B4FA00856A94 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 824FA63D22F1B4FA00856A94 /* Build configuration list for PBXProject "DiffViewer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 824FA63922F1B4FA00856A94;
+			productRefGroup = 824FA64322F1B4FA00856A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				824FA64122F1B4FA00856A94 /* DiffViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		824FA64022F1B4FA00856A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF1B0822F2867500E7CCA8 /* Error.strings in Resources */,
+				824FA64922F1B4FA00856A94 /* Assets.xcassets in Resources */,
+				82AF1ADA22F268C100E7CCA8 /* MainUI.strings in Resources */,
+				824FA64C22F1B4FA00856A94 /* MainMenu.xib in Resources */,
+				82AF1AD122F268A200E7CCA8 /* DVSettingWindow.xib in Resources */,
+				82AF1AF822F2757400E7CCA8 /* DVSingleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		824FA63E22F1B4FA00856A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EC5B5122F3C05F00628B97 /* NSBezierPathExt.mm in Sources */,
+				82AF1AF122F2753E00E7CCA8 /* DVSingleView.mm in Sources */,
+				824FA66B22F1B79300856A94 /* DVTabViewController.mm in Sources */,
+				82AF1B1122F2A5A000E7CCA8 /* NSImageViewExt.mm in Sources */,
+				82AF1B0E22F29E3700E7CCA8 /* DVWholeImageView.mm in Sources */,
+				82EC5B5C22F4071D00628B97 /* DVArrayController.mm in Sources */,
+				824FA64F22F1B4FA00856A94 /* main.mm in Sources */,
+				82AF1ACA22F2661700E7CCA8 /* DVSettingWindow.mm in Sources */,
+				82EC5B6222F4399A00628B97 /* DVChangeDouble.mm in Sources */,
+				82EC5B5922F3DC1E00628B97 /* DVShapeLayer.mm in Sources */,
+				824FA64722F1B4FA00856A94 /* AppDelegate.mm in Sources */,
+				82AF1AE622F26CF700E7CCA8 /* NSDataExt.mm in Sources */,
+				824FA67722F1C0A500856A94 /* OpenedFile.mm in Sources */,
+				82AF1AC522F264FB00E7CCA8 /* DVToolBarController.mm in Sources */,
+				82EC5B5F22F4398600628B97 /* DVChangeSingle.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		824FA64A22F1B4FA00856A94 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				824FA64B22F1B4FA00856A94 /* Base */,
+				824FA65622F1B51000856A94 /* ja */,
+				824FA66F22F1BAC600856A94 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		82AF1AD322F268A200E7CCA8 /* DVSettingWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF1AD222F268A200E7CCA8 /* Base */,
+				82AF1AD522F268A400E7CCA8 /* en */,
+				82AF1AD722F268A500E7CCA8 /* ja */,
+			);
+			name = DVSettingWindow.xib;
+			path = DiffViewer;
+			sourceTree = "<group>";
+		};
+		82AF1ADC22F268C100E7CCA8 /* MainUI.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF1ADB22F268C100E7CCA8 /* en */,
+				82AF1ADD22F268C200E7CCA8 /* ja */,
+			);
+			name = MainUI.strings;
+			sourceTree = "<group>";
+		};
+		82AF1AFA22F2757400E7CCA8 /* DVSingleView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF1AF922F2757400E7CCA8 /* Base */,
+				82AF1AFC22F2757600E7CCA8 /* en */,
+				82AF1AFE22F2757700E7CCA8 /* ja */,
+			);
+			name = DVSingleView.xib;
+			sourceTree = "<group>";
+		};
+		82AF1B0A22F2867500E7CCA8 /* Error.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF1B0922F2867500E7CCA8 /* en */,
+				82AF1B0B22F2867600E7CCA8 /* ja */,
+			);
+			name = Error.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		824FA65122F1B4FA00856A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.10;
+			};
+			name = Debug;
+		};
+		824FA65222F1B4FA00856A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.10;
+			};
+			name = Release;
+		};
+		824FA65422F1B4FA00856A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Framework/10.9\"",
+					"\"$(SRCROOT)/../KZImage/build/Debug\"",
+					"\"$(SRCROOT)/../DegitalInspector/XMPTool/build/Debug\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/ImageDiffer/DiffViewer/DiffViewer/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Libs/include\"",
+					"\"$(SRCROOT)/../../KZLibs/KZLibs\"",
+				);
+				INFOPLIST_FILE = DiffViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Libs/lib\"",
+					"\"$(SRCROOT)/../../KZLibs/Build/Release\"",
+				);
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.DiffViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx10.10;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		824FA65522F1B4FA00856A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Framework/10.9\"",
+					"\"$(SRCROOT)/../KZImage/build/Debug\"",
+					"\"$(SRCROOT)/../DegitalInspector/XMPTool/build/Debug\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/uchiyama_macmini/Documents/ImageDiffer/DiffViewer/DiffViewer/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Libs/include\"",
+					"\"$(SRCROOT)/../../KZLibs/KZLibs\"",
+				);
+				INFOPLIST_FILE = DiffViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Libs/lib\"",
+					"\"$(SRCROOT)/../../KZLibs/Build/Release\"",
+				);
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kazuya.dev.DiffViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx10.10;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		824FA63D22F1B4FA00856A94 /* Build configuration list for PBXProject "DiffViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824FA65122F1B4FA00856A94 /* Debug */,
+				824FA65222F1B4FA00856A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824FA65322F1B4FA00856A94 /* Build configuration list for PBXNativeTarget "DiffViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824FA65422F1B4FA00856A94 /* Debug */,
+				824FA65522F1B4FA00856A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 824FA63A22F1B4FA00856A94 /* Project object */;
+}
