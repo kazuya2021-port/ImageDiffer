@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B76BB25226591CD0032DA0C /* libpdfium.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76BB24226591CD0032DA0C /* libpdfium.dylib */; };
+		2B76BB2E226597720032DA0C /* libpdfium.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B76BB24226591CD0032DA0C /* libpdfium.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B7DE8BD224C4F2500D1D4F3 /* KZImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE817512249FF40006CFF1E /* KZImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BA12F342283B82700BF0775 /* libicudata.62.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA12F302283B82700BF0775 /* libicudata.62.dylib */; };
+		2BA12F382283B83C00BF0775 /* libicudata.62.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BA12F302283B82700BF0775 /* libicudata.62.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2BAD31D12265BA0700B50E8D /* ImageEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAD31D02265BA0700B50E8D /* ImageEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BE817452249FF40006CFF1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE817442249FF40006CFF1E /* Cocoa.framework */; };
+		2BE8174F2249FF40006CFF1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BE8174D2249FF40006CFF1E /* InfoPlist.strings */; };
+		2BE817532249FF40006CFF1E /* KZImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BE817522249FF40006CFF1E /* KZImage.mm */; };
+		2BE817B8224A02F5006CFF1E /* VipsFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE817B6224A02F5006CFF1E /* VipsFuncs.h */; };
+		2BE817B9224A02F5006CFF1E /* VipsFuncs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BE817B7224A02F5006CFF1E /* VipsFuncs.mm */; };
+		821797812396702B00CA427F /* libKZMagick.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82DCE949230A1CC800A1154C /* libKZMagick.dylib */; };
+		82179782239671A400CA427F /* libKZMagick.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82DCE949230A1CC800A1154C /* libKZMagick.dylib */; };
+		8219087323EC195E004AF97A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219087223EC194B004AF97A /* CoreGraphics.framework */; };
+		8219087A23EC1B89004AF97A /* libexpat.1.6.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219087823EC1B89004AF97A /* libexpat.1.6.8.dylib */; };
+		8219087C23EC1B93004AF97A /* libexpat.1.6.8.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8219087823EC1B89004AF97A /* libexpat.1.6.8.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8219087D23EC1C8D004AF97A /* libicuuc.62.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA12F2F2283B82600BF0775 /* libicuuc.62.dylib */; };
+		8219088323EC1CA1004AF97A /* libvips-cpp.42.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8219088023EC1CA1004AF97A /* libvips-cpp.42.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8219088423EC1CA1004AF97A /* libicuuc.62.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8219088123EC1CA1004AF97A /* libicuuc.62.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8219088523EC1CA1004AF97A /* libvips.42.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8219088223EC1CA1004AF97A /* libvips.42.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8219088723EC2FFB004AF97A /* libvips-cpp.42.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219088023EC1CA1004AF97A /* libvips-cpp.42.dylib */; };
+		8219088823EC2FFB004AF97A /* libvips.42.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8219088223EC1CA1004AF97A /* libvips.42.dylib */; };
+		821A813422E5D00D003C147F /* KZLibs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 821A813322E5D00D003C147F /* KZLibs.dylib */; };
+		824FA47E22F15EB400856A94 /* KZLibs.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 821A813322E5D00D003C147F /* KZLibs.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82DCE948230A1CC800A1154C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DCE944230A1CC600A1154C /* KZMagick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 82DCE93D230A1CC600A1154C;
+			remoteInfo = KZMagick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B7DE8B1224C42B200D1D4F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8219087C23EC1B93004AF97A /* libexpat.1.6.8.dylib in CopyFiles */,
+				8219088323EC1CA1004AF97A /* libvips-cpp.42.dylib in CopyFiles */,
+				8219088423EC1CA1004AF97A /* libicuuc.62.dylib in CopyFiles */,
+				8219088523EC1CA1004AF97A /* libvips.42.dylib in CopyFiles */,
+				82179782239671A400CA427F /* libKZMagick.dylib in CopyFiles */,
+				824FA47E22F15EB400856A94 /* KZLibs.dylib in CopyFiles */,
+				2BA12F382283B83C00BF0775 /* libicudata.62.dylib in CopyFiles */,
+				2B76BB2E226597720032DA0C /* libpdfium.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B76BB24226591CD0032DA0C /* libpdfium.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpdfium.dylib; path = ../Libs/lib/libpdfium.dylib; sourceTree = "<group>"; };
+		2B76BB2A226591E30032DA0C /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = ../Libs/lib/libpng16.a; sourceTree = "<group>"; };
+		2BA12F2F2283B82600BF0775 /* libicuuc.62.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicuuc.62.dylib; path = ../Libs/lib/libicuuc.62.dylib; sourceTree = "<group>"; };
+		2BA12F302283B82700BF0775 /* libicudata.62.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicudata.62.dylib; path = ../Libs/lib/libicudata.62.dylib; sourceTree = "<group>"; };
+		2BAD31D02265BA0700B50E8D /* ImageEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageEnum.h; sourceTree = "<group>"; };
+		2BC958AD2268764800B3DE8A /* libwebpdemux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebpdemux.a; path = ../../../../../../usr/local/lib/libwebpdemux.a; sourceTree = "<group>"; };
+		2BC958AE2268764800B3DE8A /* libwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebp.a; path = ../../../../../../usr/local/lib/libwebp.a; sourceTree = "<group>"; };
+		2BC958AF2268764800B3DE8A /* libtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtiff.a; path = ../../../../../../usr/local/lib/libtiff.a; sourceTree = "<group>"; };
+		2BC958B12268764800B3DE8A /* liblzma.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblzma.a; path = ../../../../../../usr/local/lib/liblzma.a; sourceTree = "<group>"; };
+		2BC958B22268764800B3DE8A /* libltdl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libltdl.a; path = ../../../../../../usr/local/lib/libltdl.a; sourceTree = "<group>"; };
+		2BC958B32268764800B3DE8A /* liblcms2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblcms2.a; path = ../../../../../../usr/local/lib/liblcms2.a; sourceTree = "<group>"; };
+		2BC958B42268764800B3DE8A /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = ../../../../../../usr/local/lib/libjpeg.a; sourceTree = "<group>"; };
+		2BC958B62268764800B3DE8A /* libfftw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3.a; path = ../../../../../../usr/local/lib/libfftw3.a; sourceTree = "<group>"; };
+		2BE817412249FF40006CFF1E /* KZImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KZImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE817442249FF40006CFF1E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2BE817472249FF40006CFF1E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2BE817482249FF40006CFF1E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2BE817492249FF40006CFF1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BE8174C2249FF40006CFF1E /* KZImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KZImage-Info.plist"; sourceTree = "<group>"; };
+		2BE8174E2249FF40006CFF1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BE817502249FF40006CFF1E /* KZImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KZImage-Prefix.pch"; sourceTree = "<group>"; };
+		2BE817512249FF40006CFF1E /* KZImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZImage.h; sourceTree = "<group>"; };
+		2BE817522249FF40006CFF1E /* KZImage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KZImage.mm; sourceTree = "<group>"; };
+		2BE817B6224A02F5006CFF1E /* VipsFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VipsFuncs.h; sourceTree = "<group>"; };
+		2BE817B7224A02F5006CFF1E /* VipsFuncs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VipsFuncs.mm; sourceTree = "<group>"; };
+		8219087223EC194B004AF97A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8219087823EC1B89004AF97A /* libexpat.1.6.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexpat.1.6.8.dylib; path = ../Libs/lib/libexpat.1.6.8.dylib; sourceTree = "<group>"; };
+		8219088023EC1CA1004AF97A /* libvips-cpp.42.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libvips-cpp.42.dylib"; path = "../Libs/lib/libvips-cpp.42.dylib"; sourceTree = "<group>"; };
+		8219088123EC1CA1004AF97A /* libicuuc.62.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicuuc.62.dylib; path = ../Libs/lib/libicuuc.62.dylib; sourceTree = "<group>"; };
+		8219088223EC1CA1004AF97A /* libvips.42.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvips.42.dylib; path = ../Libs/lib/libvips.42.dylib; sourceTree = "<group>"; };
+		821A813322E5D00D003C147F /* KZLibs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = KZLibs.dylib; path = ../../KZLibs/Build/Release/KZLibs.dylib; sourceTree = "<group>"; };
+		82332B8023D9824A00FCC3FC /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = ../../../../../usr/local/Cellar/tbb/2019_U1/lib/libtbb.dylib; sourceTree = "<group>"; };
+		82332B8223D9A69300FCC3FC /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = ../../../Halide/distrib/include; sourceTree = "<group>"; };
+		82332B8423D9A6A900FCC3FC /* libHalide.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHalide.a; path = ../../../Halide/distrib/lib/libHalide.a; sourceTree = "<group>"; };
+		82332B8623D9AEED00FCC3FC /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		82890599237C105A00D05E9C /* libhpdfs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhpdfs.a; path = ../Libs/lib/libhpdfs.a; sourceTree = "<group>"; };
+		82C6203423261B3100B95CD4 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		82DCE944230A1CC600A1154C /* KZMagick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KZMagick.xcodeproj; path = KZMagick/KZMagick.xcodeproj; sourceTree = "<group>"; };
+		82E0C6F723CFE29B004F6CFA /* libgif.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgif.a; path = ../../../../../usr/local/lib/libgif.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE8173D2249FF3F006CFF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8219088723EC2FFB004AF97A /* libvips-cpp.42.dylib in Frameworks */,
+				8219088823EC2FFB004AF97A /* libvips.42.dylib in Frameworks */,
+				8219087D23EC1C8D004AF97A /* libicuuc.62.dylib in Frameworks */,
+				8219087323EC195E004AF97A /* CoreGraphics.framework in Frameworks */,
+				821797812396702B00CA427F /* libKZMagick.dylib in Frameworks */,
+				821A813422E5D00D003C147F /* KZLibs.dylib in Frameworks */,
+				8219087A23EC1B89004AF97A /* libexpat.1.6.8.dylib in Frameworks */,
+				2BA12F342283B82700BF0775 /* libicudata.62.dylib in Frameworks */,
+				2B76BB25226591CD0032DA0C /* libpdfium.dylib in Frameworks */,
+				2BE817452249FF40006CFF1E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE817372249FF3F006CFF1E = {
+			isa = PBXGroup;
+			children = (
+				8219088123EC1CA1004AF97A /* libicuuc.62.dylib */,
+				8219088023EC1CA1004AF97A /* libvips-cpp.42.dylib */,
+				8219088223EC1CA1004AF97A /* libvips.42.dylib */,
+				82DCE944230A1CC600A1154C /* KZMagick.xcodeproj */,
+				2BE8174A2249FF40006CFF1E /* KZImage */,
+				2BE817432249FF40006CFF1E /* Frameworks */,
+				2BE817422249FF40006CFF1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE817422249FF40006CFF1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE817412249FF40006CFF1E /* KZImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE817432249FF40006CFF1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8219087823EC1B89004AF97A /* libexpat.1.6.8.dylib */,
+				8219087223EC194B004AF97A /* CoreGraphics.framework */,
+				82332B8623D9AEED00FCC3FC /* libz.1.dylib */,
+				82332B8423D9A6A900FCC3FC /* libHalide.a */,
+				82332B8223D9A69300FCC3FC /* include */,
+				82332B8023D9824A00FCC3FC /* libtbb.dylib */,
+				82E0C6F723CFE29B004F6CFA /* libgif.a */,
+				82890599237C105A00D05E9C /* libhpdfs.a */,
+				82C6203423261B3100B95CD4 /* CoreImage.framework */,
+				821A813322E5D00D003C147F /* KZLibs.dylib */,
+				2BA12F2F2283B82600BF0775 /* libicuuc.62.dylib */,
+				2BA12F302283B82700BF0775 /* libicudata.62.dylib */,
+				2BC958AD2268764800B3DE8A /* libwebpdemux.a */,
+				2BC958AE2268764800B3DE8A /* libwebp.a */,
+				2BC958AF2268764800B3DE8A /* libtiff.a */,
+				2BC958B12268764800B3DE8A /* liblzma.a */,
+				2BC958B22268764800B3DE8A /* libltdl.a */,
+				2BC958B32268764800B3DE8A /* liblcms2.a */,
+				2BC958B42268764800B3DE8A /* libjpeg.a */,
+				2BC958B62268764800B3DE8A /* libfftw3.a */,
+				2B76BB2A226591E30032DA0C /* libpng16.a */,
+				2B76BB24226591CD0032DA0C /* libpdfium.dylib */,
+				2BE817442249FF40006CFF1E /* Cocoa.framework */,
+				2BE817462249FF40006CFF1E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BE817462249FF40006CFF1E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE817472249FF40006CFF1E /* AppKit.framework */,
+				2BE817482249FF40006CFF1E /* CoreData.framework */,
+				2BE817492249FF40006CFF1E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2BE8174A2249FF40006CFF1E /* KZImage */ = {
+			isa = PBXGroup;
+			children = (
+				2BAD31D02265BA0700B50E8D /* ImageEnum.h */,
+				2BE817B1224A02D1006CFF1E /* cpp */,
+				2BE817512249FF40006CFF1E /* KZImage.h */,
+				2BE817522249FF40006CFF1E /* KZImage.mm */,
+				2BE817B6224A02F5006CFF1E /* VipsFuncs.h */,
+				2BE817B7224A02F5006CFF1E /* VipsFuncs.mm */,
+				2BE8174B2249FF40006CFF1E /* Supporting Files */,
+			);
+			path = KZImage;
+			sourceTree = "<group>";
+		};
+		2BE8174B2249FF40006CFF1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8174C2249FF40006CFF1E /* KZImage-Info.plist */,
+				2BE8174D2249FF40006CFF1E /* InfoPlist.strings */,
+				2BE817502249FF40006CFF1E /* KZImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BE817B1224A02D1006CFF1E /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = cpp;
+			sourceTree = "<group>";
+		};
+		82DCE945230A1CC600A1154C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DCE949230A1CC800A1154C /* libKZMagick.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BE8173E2249FF3F006CFF1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7DE8BD224C4F2500D1D4F3 /* KZImage.h in Headers */,
+				2BAD31D12265BA0700B50E8D /* ImageEnum.h in Headers */,
+				2BE817B8224A02F5006CFF1E /* VipsFuncs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BE817402249FF3F006CFF1E /* KZImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE8176B2249FF40006CFF1E /* Build configuration list for PBXNativeTarget "KZImage" */;
+			buildPhases = (
+				2BE8173C2249FF3F006CFF1E /* Sources */,
+				2BE8173D2249FF3F006CFF1E /* Frameworks */,
+				2BE8173E2249FF3F006CFF1E /* Headers */,
+				2BE8173F2249FF3F006CFF1E /* Resources */,
+				2B7DE8B1224C42B200D1D4F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZImage;
+			productName = KZImage;
+			productReference = 2BE817412249FF40006CFF1E /* KZImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE817382249FF3F006CFF1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "内山和也";
+			};
+			buildConfigurationList = 2BE8173B2249FF3F006CFF1E /* Build configuration list for PBXProject "KZImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BE817372249FF3F006CFF1E;
+			productRefGroup = 2BE817422249FF40006CFF1E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 82DCE945230A1CC600A1154C /* Products */;
+					ProjectRef = 82DCE944230A1CC600A1154C /* KZMagick.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2BE817402249FF3F006CFF1E /* KZImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		82DCE949230A1CC800A1154C /* libKZMagick.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKZMagick.dylib;
+			remoteRef = 82DCE948230A1CC800A1154C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE8173F2249FF3F006CFF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE8174F2249FF40006CFF1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE8173C2249FF3F006CFF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE817532249FF40006CFF1E /* KZImage.mm in Sources */,
+				2BE817B9224A02F5006CFF1E /* VipsFuncs.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BE8174D2249FF40006CFF1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE8174E2249FF40006CFF1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BE817692249FF40006CFF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libs/include\"",
+					"\"$(SRCROOT)/../../KZLibs/KZLibs\"",
+				);
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libs/lib\"",
+					"\"$(SRCROOT)/../../KZLibCPP/Build/Products/Release\"",
+					"\"$(SRCROOT)/../../KZLibs/Build/Products/Release\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
+				);
+				SDKROOT = macosx10.11;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		2BE8176A2249FF40006CFF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libs/include\"",
+					"\"$(SRCROOT)/../../KZLibs/KZLibs\"",
+				);
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Libs/lib\"",
+					"\"$(SRCROOT)/../../KZLibCPP/Build/Products/Release\"",
+					"\"$(SRCROOT)/../../KZLibs/Build/Products/Release\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
+				);
+				SDKROOT = macosx10.11;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		2BE8176C2249FF40006CFF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"MAC_ENV=1",
+					"XMP_StaticBuild=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Libs/include\"",
+					"\"$(SRCROOT)/../../KZLibs/KZLibs\"",
+					"\"$(SRCROOT)/KZMagick\"",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "KZImage/KZImage-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_NO_PIE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Libs/lib\"",
+					"\"$(SRCROOT)/../../KZLibs/Build/Release\"",
+					"\"$(SRCROOT)/KZMagick/build/Debug\"",
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.10;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		2BE8176D2249FF40006CFF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MAC_ENV=1",
+					"XMP_StaticBuild=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Libs/include\"",
+					"\"$(SRCROOT)/../../KZLibs/KZLibs\"",
+					"\"$(SRCROOT)/KZMagick\"",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "KZImage/KZImage-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_NO_PIE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Libs/lib\"",
+					"\"$(SRCROOT)/../../KZLibs/Build/Release\"",
+					"\"$(SRCROOT)/KZMagick/build/Debug\"",
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.10;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE8173B2249FF3F006CFF1E /* Build configuration list for PBXProject "KZImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE817692249FF40006CFF1E /* Debug */,
+				2BE8176A2249FF40006CFF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE8176B2249FF40006CFF1E /* Build configuration list for PBXNativeTarget "KZImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE8176C2249FF40006CFF1E /* Debug */,
+				2BE8176D2249FF40006CFF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE817382249FF3F006CFF1E /* Project object */;
+}
